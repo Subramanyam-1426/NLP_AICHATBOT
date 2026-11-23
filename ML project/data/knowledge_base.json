@@ -1,0 +1,52 @@
+{
+    "faqs": [
+        {
+            "id": 1,
+            "category": "Admissions",
+            "question": "What is the minimum eligibility criteria for admission?",
+            "answer": "Candidates must have passed 10+2 examination with minimum 60% aggregate marks in Physics, Chemistry, and Mathematics (PCM) from a recognized board, along with a valid rank in state or national entrance tests (EAMCET/JEE)."
+        },
+        {
+            "id": 2,
+            "category": "Academics",
+            "question": "What grading system is followed?",
+            "answer": "The institute follows a 10-point Cumulative Grade Point Average (CGPA) system aligned with UGC standards, with continuous internal evaluation (40%) and end-semester examinations (60%)."
+        },
+        {
+            "id": 3,
+            "category": "Placements",
+            "question": "Which companies visit the campus for recruitment?",
+            "answer": "Top recruiters include Microsoft, Amazon, TCS Digital, Wipro Turbo, Infosys Power Programmer, Accenture, Cognizant, and Capgemini, offering core software and data engineering roles."
+        },
+        {
+            "id": 4,
+            "category": "NLP & AI",
+            "question": "What is TF-IDF in Natural Language Processing?",
+            "answer": "TF-IDF stands for Term Frequency - Inverse Document Frequency. It evaluates how important a word is to a document relative to a corpus by weighting frequently occurring local words against rare global words."
+        },
+        {
+            "id": 5,
+            "category": "NLP & AI",
+            "question": "What is VADER Sentiment Analysis?",
+            "answer": "VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool specifically attuned to sentiments expressed in social media and conversational text."
+        },
+        {
+            "id": 6,
+            "category": "Infrastructure",
+            "question": "What computing resources are available for AI research?",
+            "answer": "The High-Performance Computing (HPC) Lab features 50+ NVIDIA RTX GPU workstations, dedicated high-speed server clusters, and pre-installed deep learning environments (PyTorch, TensorFlow, CUDA)."
+        }
+    ],
+    "college_meta": {
+        "name": "Institute of Technology & Science",
+        "accreditation": "NAAC A+ Autonomous",
+        "established": 1999,
+        "total_students": 4500,
+        "campus_area": "50 Acres",
+        "contact": {
+            "phone": "+1-800-555-0199",
+            "email": "info@institute.edu",
+            "website": "https://www.institute.edu"
+        }
+    }
+}

@@ -1,0 +1,4012 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good afternoon",
+        "Hi there",
+        "Greetings",
+        "Howdy",
+        "Hey chatbot",
+        "Is anyone there?",
+        "Hello assistant",
+        "Hey there friend",
+        "Good day",
+        "Hiya",
+        "Yo",
+        "Hey assistant",
+        "Hello there",
+        "Hi robot",
+        "Good morning assistant"
+      ],
+      "responses": [
+        "Hello! How can I help you today?"
+      ],
+      "context_set": "",
+      "qa_pairs": []
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Have a good day",
+        "Catch you later",
+        "Exit",
+        "Quit",
+        "Bye bye",
+        "Signing off",
+        "See ya",
+        "Talk to you later",
+        "Have a nice day",
+        "I am leaving now",
+        "Disconnect",
+        "Close chat"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day."
+      ],
+      "context_set": "",
+      "qa_pairs": []
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Appreciate it",
+        "Thank you so much",
+        "Many thanks",
+        "Great, thanks!",
+        "Thanks a lot",
+        "Thank you for the help",
+        "Much appreciated",
+        "Perfect, thank you!",
+        "You are very helpful"
+      ],
+      "responses": [
+        "You're welcome! Happy to help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "What are you?",
+        "Tell me about yourself",
+        "Who am I talking to?",
+        "Are you an AI?",
+        "Are you human?",
+        "Are you a human or bot?",
+        "What kind of bot are you?",
+        "Define yourself",
+        "Who is this assistant?"
+      ],
+      "responses": [
+        "I'm your AI chatbot, here to answer your questions.",
+        "I'm an AI chatbot designed to communicate with people."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot_creator",
+      "patterns": [
+        "Who created you?",
+        "Who built this project?",
+        "Who made you?",
+        "Who is your developer?",
+        "Who designed this system?",
+        "Which team developed you?",
+        "Who coded this chatbot?",
+        "Who is the author of this project?"
+      ],
+      "responses": [
+        "I was created as an AI chatbot project."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "bot_help",
+      "patterns": [
+        "Help",
+        "What can you do?",
+        "How to use this chatbot?",
+        "Show me features",
+        "Options",
+        "What are your capabilities?",
+        "List your functions",
+        "How can you assist me?",
+        "Can you help me?",
+        "I need help",
+        "What topics do you know?",
+        "Guide me"
+      ],
+      "responses": [
+        "I can answer basic questions, explain concepts, help draft formal messages, and chat with you. I can also answer from local FAQs and documents you upload."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "Tell me about the college",
+        "What is the college name?",
+        "About institute",
+        "College overview",
+        "Tell me about the university",
+        "Is this a recognized college?",
+        "Institute background",
+        "Is the college NAAC accredited?",
+        "University accreditation",
+        "Give me details about the institute",
+        "What is the college reputation?"
+      ],
+      "responses": [
+        "Our Institute of Technology & Science is an autonomous institute accredited with NAAC A+ grade, offering premier undergraduate and postgraduate programs in CSE, AI/ML, Data Science, and ECE.",
+        "The college features state-of-the-art research labs, experienced faculty, vibrant student clubs, and an outstanding placement record."
+      ],
+      "context_set": "college"
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses are offered?",
+        "List of departments",
+        "Which branches are available?",
+        "Degrees offered",
+        "Do you have B.Tech in AI?",
+        "Postgraduate programs",
+        "What engineering majors are available?",
+        "Tell me about CSE department",
+        "Is Data Science branch available?",
+        "Master degree courses",
+        "B.Tech specializations"
+      ],
+      "responses": [
+        "We offer B.Tech in Computer Science & Engineering (CSE), AI & ML, Data Science, Cyber Security, ECE, and Information Technology. We also offer M.Tech and MCA programs!",
+        "Available undergraduate programs include B.Tech in CSE, Artificial Intelligence & Machine Learning, Data Science, and Electronics & Communication Engineering."
+      ],
+      "context_set": "courses"
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How to get admission?",
+        "Admission procedure",
+        "Eligibility criteria",
+        "Cutoff marks for admission",
+        "Apply for B.Tech",
+        "Entrance exams accepted",
+        "How do I apply for CSE?",
+        "Admission requirements",
+        "What rank is needed for admission?",
+        "Is management quota available?",
+        "Lateral entry admission process"
+      ],
+      "responses": [
+        "Admissions are based on state entrance exams (EAMCET/JEE Main) score followed by centralized counseling. Management quota seats are also available based on academic merit.",
+        "Eligible candidates need 60%+ in 10+2 with Physics, Chemistry, and Mathematics. Applications can be submitted online through the admissions portal."
+      ],
+      "context_set": "admission"
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure?",
+        "How much is tuition fee?",
+        "College fees",
+        "B.Tech fee per year",
+        "Hostel fee details",
+        "Payment options",
+        "What is annual B.Tech tuition fee?",
+        "Fee breakdown per semester",
+        "How much does CSE cost?",
+        "Hostel and mess charges"
+      ],
+      "responses": [
+        "The annual tuition fee for B.Tech CSE / AI & ML is approximately $1,200 to $1,500 (per state fee norms). Hostel fee is approximately $600 per year including mess.",
+        "Tuition fees can be paid online per semester or annually through the official student portal."
+      ],
+      "context_set": "fee"
+    },
+    {
+      "tag": "placement_stats",
+      "patterns": [
+        "How are placements?",
+        "Placement record",
+        "Top recruiters",
+        "Highest salary package",
+        "Average package",
+        "Does Amazon visit campus?",
+        "What is placement percentage?",
+        "Which companies hire from here?",
+        "Tell me about placement cell",
+        "Campus recruitment statistics"
+      ],
+      "responses": [
+        "Over 92% of eligible students are placed annually! Top recruiters include Microsoft, Amazon, TCS, Infosys, Wipro, Accenture, and Cognizant. Highest package: 45 LPA, Average package: 7.5 LPA.",
+        "Our Training & Placement Cell provides comprehensive training in competitive coding, mock technical interviews, aptitude, and soft skills."
+      ],
+      "context_set": "placements"
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [
+        "Are hostel facilities available?",
+        "Hostel amenities",
+        "Boys and girls hostel",
+        "Is there Wi-Fi in hostel?",
+        "Mess food quality",
+        "Hostel room sharing",
+        "Are AC hostel rooms available?",
+        "Hostel security and rules"
+      ],
+      "responses": [
+        "Yes, separate well-furnished hostels are available for boys and girls with 24/7 security, high-speed Wi-Fi, gym, sports grounds, and hygienic mess facilities.",
+        "Hostels offer double and triple sharing rooms with study desks, air cooler/AC options, and 24/7 medical emergency assistance."
+      ],
+      "context_set": "hostel"
+    },
+    {
+      "tag": "library_info",
+      "patterns": [
+        "Tell me about the library",
+        "Digital library access",
+        "Library timing",
+        "How many books in library?",
+        "Are IEEE journals available?",
+        "Does library have e-books?",
+        "Library opening hours"
+      ],
+      "responses": [
+        "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM.",
+        "Students can access thousands of e-books, research papers, and IEEE digital databases 24/7 through the campus network."
+      ],
+      "context_set": "library",
+      "qa_pairs": [
+        {
+          "question": "Tell me about the library",
+          "patterns": [
+            "Quick question: Tell me about the library",
+            "In simple terms, Tell me about the library",
+            "Could you share some details? Tell me about the library"
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        },
+        {
+          "question": "Digital library access",
+          "patterns": [
+            "Could you please answer this: Digital library access",
+            "Could you help me understand this: Digital library access",
+            "Quick question: Tell me about the librray"
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        },
+        {
+          "question": "Library timing",
+          "patterns": [
+            "I would like to know: Library timing",
+            "Here's my question: Library timing"
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        },
+        {
+          "question": "How many books in library?",
+          "patterns": [
+            "Please tell me more: How many books in library?",
+            "How many books in library? Please keep the answer concise."
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        },
+        {
+          "question": "Are IEEE journals available?",
+          "patterns": [
+            "Can you explain this clearly? Are IEEE journals available?",
+            "I need information about this: Are IEEE journals available?"
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        },
+        {
+          "question": "Does library have e-books?",
+          "patterns": [
+            "For a class assignment, Does library have e-books?",
+            "Can you give me a clear answer? Does library have e-books?"
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        },
+        {
+          "question": "Library opening hours",
+          "patterns": [
+            "I'm curious about this: Library opening hours",
+            "A quick question for you: Library opening hours"
+          ],
+          "answer": "The Central Library houses over 50,000 volumes, 200+ national and international journals, IEEE Xplore digital access, and quiet study zones open from 8:00 AM to 8:00 PM."
+        }
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When are semester exams?",
+        "Exam timetable",
+        "Mid exam schedule",
+        "Where can I find exam results?",
+        "Supplementary exams",
+        "Grading system and GPA calculation",
+        "Internal marks criteria"
+      ],
+      "responses": [
+        "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal.",
+        "Results and hall tickets can be accessed directly from the official examination portal using your student roll number."
+      ],
+      "context_set": "exams",
+      "qa_pairs": [
+        {
+          "question": "When are semester exams?",
+          "patterns": [
+            "Quick question: When are semester exams?",
+            "In simple terms, When are semester exams?",
+            "Could you share some details? When are semester exams?"
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        },
+        {
+          "question": "Exam timetable",
+          "patterns": [
+            "Could you please answer this: Exam timetable",
+            "Could you help me understand this: Exam timetable",
+            "Quick question: When are semester exasm?"
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        },
+        {
+          "question": "Mid exam schedule",
+          "patterns": [
+            "I would like to know: Mid exam schedule",
+            "Here's my question: Mid exam schedule"
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        },
+        {
+          "question": "Where can I find exam results?",
+          "patterns": [
+            "Please tell me more: Where can I find exam results?",
+            "Where can I find exam results? Please keep the answer concise."
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        },
+        {
+          "question": "Supplementary exams",
+          "patterns": [
+            "Can you explain this clearly? Supplementary exams",
+            "I need information about this: Supplementary exams"
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        },
+        {
+          "question": "Grading system and GPA calculation",
+          "patterns": [
+            "For a class assignment, Grading system and GPA calculation",
+            "Can you give me a clear answer? Grading system and GPA calculation"
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        },
+        {
+          "question": "Internal marks criteria",
+          "patterns": [
+            "I'm curious about this: Internal marks criteria",
+            "A quick question for you: Internal marks criteria"
+          ],
+          "answer": "Semester examinations are held twice a year (November/December for Odd Semesters and April/May for Even Semesters). Timetables are published on the examination portal."
+        }
+      ]
+    },
+    {
+      "tag": "scholarship_info",
+      "patterns": [
+        "Are scholarships available?",
+        "Government scholarship",
+        "Merit scholarship",
+        "Fee reimbursement",
+        "Financial assistance",
+        "Scholarship eligibility",
+        "How to apply for fee waiver?"
+      ],
+      "responses": [
+        "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable.",
+        "Students with 90%+ in 10+2 or top entrance ranks receive 25% to 100% tuition fee waivers."
+      ],
+      "context_set": "scholarship",
+      "qa_pairs": [
+        {
+          "question": "Are scholarships available?",
+          "patterns": [
+            "Quick question: Are scholarships available?",
+            "In simple terms, Are scholarships available?",
+            "Could you share some details? Are scholarships available?"
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        },
+        {
+          "question": "Government scholarship",
+          "patterns": [
+            "Could you please answer this: Government scholarship",
+            "Could you help me understand this: Government scholarship",
+            "Quick question: Are scholarships availalbe?"
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        },
+        {
+          "question": "Merit scholarship",
+          "patterns": [
+            "I would like to know: Merit scholarship",
+            "Here's my question: Merit scholarship"
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        },
+        {
+          "question": "Fee reimbursement",
+          "patterns": [
+            "Please tell me more: Fee reimbursement",
+            "Fee reimbursement Please keep the answer concise."
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        },
+        {
+          "question": "Financial assistance",
+          "patterns": [
+            "Can you explain this clearly? Financial assistance",
+            "I need information about this: Financial assistance"
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        },
+        {
+          "question": "Scholarship eligibility",
+          "patterns": [
+            "For a class assignment, Scholarship eligibility",
+            "Can you give me a clear answer? Scholarship eligibility"
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        },
+        {
+          "question": "How to apply for fee waiver?",
+          "patterns": [
+            "I'm curious about this: How to apply for fee waiver?",
+            "A quick question for you: How to apply for fee waiver?"
+          ],
+          "answer": "Yes! Merit-based scholarships are provided to top entrance rankers. Government fee reimbursement schemes and SC/ST/OBC scholarships are also fully applicable."
+        }
+      ]
+    },
+    {
+      "tag": "campus_location",
+      "patterns": [
+        "Where is the campus located?",
+        "College address",
+        "How to reach college?",
+        "Nearest railway station",
+        "Bus routes",
+        "Is transport available?",
+        "How far is the college from city center?"
+      ],
+      "responses": [
+        "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet.",
+        "Full address: Institute of Technology & Science, Academic Block 1, Tech City. The nearest metro/railway station is 5 km away."
+      ],
+      "context_set": "location",
+      "qa_pairs": [
+        {
+          "question": "Where is the campus located?",
+          "patterns": [
+            "Quick question: Where is the campus located?",
+            "In simple terms, Where is the campus located?",
+            "Could you share some details? Where is the campus located?"
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        },
+        {
+          "question": "College address",
+          "patterns": [
+            "Could you please answer this: College address",
+            "Could you help me understand this: College address",
+            "Quick question: Where is the campus locaetd?"
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        },
+        {
+          "question": "How to reach college?",
+          "patterns": [
+            "I would like to know: How to reach college?",
+            "Here's my question: How to reach college?"
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        },
+        {
+          "question": "Nearest railway station",
+          "patterns": [
+            "Please tell me more: Nearest railway station",
+            "Nearest railway station Please keep the answer concise."
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        },
+        {
+          "question": "Bus routes",
+          "patterns": [
+            "Can you explain this clearly? Bus routes",
+            "I need information about this: Bus routes"
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        },
+        {
+          "question": "Is transport available?",
+          "patterns": [
+            "For a class assignment, Is transport available?",
+            "Can you give me a clear answer? Is transport available?"
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        },
+        {
+          "question": "How far is the college from city center?",
+          "patterns": [
+            "I'm curious about this: How far is the college from city center?",
+            "A quick question for you: How far is the college from city center?"
+          ],
+          "answer": "The campus is located at Tech Park Knowledge City, main highway. It is easily accessible by city buses and our dedicated campus transport fleet."
+        }
+      ]
+    },
+    {
+      "tag": "python_info",
+      "patterns": [
+        "What is Python?",
+        "Tell me about Python",
+        "Why use Python for AI?",
+        "Is Python easy to learn?",
+        "Python features",
+        "What makes Python popular?",
+        "Python libraries for machine learning",
+        "Python syntax advantages"
+      ],
+      "responses": [
+        "Python is a high-level, interpreted programming language known for its clear syntax and massive ecosystem for AI, ML, NLP, and Data Science!",
+        "Python features clean syntax, dynamic typing, automatic memory management, and powerful libraries like NLTK, Scikit-learn, Pandas, NumPy, PyTorch, and TensorFlow."
+      ],
+      "context_set": "Python"
+    },
+    {
+      "tag": "java_info",
+      "patterns": [
+        "What is Java?",
+        "Tell me about Java",
+        "Java programming",
+        "Difference between Java and Python",
+        "Java JVM features",
+        "Why is Java used in enterprise?"
+      ],
+      "responses": [
+        "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps.",
+        "Java emphasizes static typing, high execution speed with JVM JIT compilation, and strict OOP principles compared to Python."
+      ],
+      "context_set": "Java",
+      "qa_pairs": [
+        {
+          "question": "What is Java?",
+          "patterns": [
+            "Quick question: What is Java?",
+            "I'm curious about this: What is Java?",
+            "Can you give me a clear answer? What is Java?"
+          ],
+          "answer": "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps."
+        },
+        {
+          "question": "Tell me about Java",
+          "patterns": [
+            "Could you please answer this: Tell me about Java",
+            "In simple terms, Tell me about Java",
+            "A quick question for you: Tell me about Java"
+          ],
+          "answer": "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps."
+        },
+        {
+          "question": "Java programming",
+          "patterns": [
+            "I would like to know: Java programming",
+            "Could you help me understand this: Java programming",
+            "Could you share some details? Java programming"
+          ],
+          "answer": "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps."
+        },
+        {
+          "question": "Difference between Java and Python",
+          "patterns": [
+            "Please tell me more: Difference between Java and Python",
+            "Here's my question: Difference between Java and Python",
+            "Quick question: What is Java?"
+          ],
+          "answer": "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps."
+        },
+        {
+          "question": "Java JVM features",
+          "patterns": [
+            "Can you explain this clearly? Java JVM features",
+            "Java JVM features Please keep the answer concise."
+          ],
+          "answer": "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps."
+        },
+        {
+          "question": "Why is Java used in enterprise?",
+          "patterns": [
+            "For a class assignment, Why is Java used in enterprise?",
+            "I need information about this: Why is Java used in enterprise?"
+          ],
+          "answer": "Java is an object-oriented, class-based, write-once-run-anywhere programming language widely used in enterprise software, backend services, and Android apps."
+        }
+      ]
+    },
+    {
+      "tag": "cpp_info",
+      "patterns": [
+        "What is C++?",
+        "Tell me about C++",
+        "C++ programming language",
+        "Why use C++ for competitive programming?",
+        "Pointers in C++"
+      ],
+      "responses": [
+        "C++ is a high-performance compiled language that extends C with object-oriented features, low-level memory manipulation (pointers), and STL containers.",
+        "C++ is favored for game engines, operating systems, competitive programming, and high-frequency trading due to its blazing speed."
+      ],
+      "context_set": "C++",
+      "qa_pairs": [
+        {
+          "question": "What is C++?",
+          "patterns": [
+            "Quick question: What is C++?",
+            "For a class assignment, What is C++?",
+            "What is C++? Please keep the answer concise."
+          ],
+          "answer": "C++ is a high-performance compiled language that extends C with object-oriented features, low-level memory manipulation (pointers), and STL containers."
+        },
+        {
+          "question": "Tell me about C++",
+          "patterns": [
+            "Could you please answer this: Tell me about C++",
+            "I'm curious about this: Tell me about C++",
+            "I need information about this: Tell me about C++"
+          ],
+          "answer": "C++ is a high-performance compiled language that extends C with object-oriented features, low-level memory manipulation (pointers), and STL containers."
+        },
+        {
+          "question": "C++ programming language",
+          "patterns": [
+            "I would like to know: C++ programming language",
+            "In simple terms, C++ programming language",
+            "Can you give me a clear answer? C++ programming language"
+          ],
+          "answer": "C++ is a high-performance compiled language that extends C with object-oriented features, low-level memory manipulation (pointers), and STL containers."
+        },
+        {
+          "question": "Why use C++ for competitive programming?",
+          "patterns": [
+            "Please tell me more: Why use C++ for competitive programming?",
+            "Could you help me understand this: Why use C++ for competitive programming?",
+            "A quick question for you: Why use C++ for competitive programming?"
+          ],
+          "answer": "C++ is a high-performance compiled language that extends C with object-oriented features, low-level memory manipulation (pointers), and STL containers."
+        },
+        {
+          "question": "Pointers in C++",
+          "patterns": [
+            "Can you explain this clearly? Pointers in C++",
+            "Here's my question: Pointers in C++",
+            "Could you share some details? Pointers in C++"
+          ],
+          "answer": "C++ is a high-performance compiled language that extends C with object-oriented features, low-level memory manipulation (pointers), and STL containers."
+        }
+      ]
+    },
+    {
+      "tag": "machine_learning_info",
+      "patterns": [
+        "What is Machine Learning?",
+        "Define ML",
+        "Types of Machine Learning",
+        "Supervised vs Unsupervised learning",
+        "How does ML work?",
+        "Explain machine learning concepts",
+        "What is reinforcement learning?",
+        "Overfitting vs Underfitting in ML"
+      ],
+      "responses": [
+        "Machine Learning (ML) is a branch of AI focused on building algorithms that learn patterns from data and make predictions without being explicitly programmed!",
+        "ML is categorized into Supervised Learning (classification, regression), Unsupervised Learning (clustering, dimensionality reduction), and Reinforcement Learning."
+      ],
+      "context_set": "Machine Learning"
+    },
+    {
+      "tag": "nlp_info",
+      "patterns": [
+        "What is NLP?",
+        "Define Natural Language Processing",
+        "Applications of NLP",
+        "Why is NLP important?",
+        "How does NLP work?",
+        "Explain NLP pipeline",
+        "What is text classification in NLP?",
+        "Real world examples of NLP"
+      ],
+      "responses": [
+        "Natural Language Processing (NLP) is a subfield of AI that enables computers to understand, interpret, analyze, and generate human language text and speech!",
+        "Key NLP tasks include tokenization, POS tagging, stemming/lemmatization, sentiment analysis, named entity recognition (NER), machine translation, and intent classification."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is NLP?",
+          "patterns": [
+            "What does NLP stand for?",
+            "Define Natural Language Processing",
+            "Explain NLP in simple words"
+          ],
+          "answer": "NLP stands for Natural Language Processing. It is a branch of AI that enables computers to understand, process, and analyze human language."
+        },
+        {
+          "question": "What are applications of NLP?",
+          "patterns": [
+            "What is NLP used for?",
+            "Give examples of NLP applications",
+            "Where is natural language processing used?"
+          ],
+          "answer": "NLP is used in chatbots, machine translation, sentiment analysis, text summarization, speech recognition, and spam detection."
+        },
+        {
+          "question": "What is named entity recognition?",
+          "patterns": [
+            "What is NER in NLP?",
+            "Explain named entity recognition",
+            "What does an NER system identify?"
+          ],
+          "answer": "Named Entity Recognition (NER) identifies and classifies named entities in text, such as people, organizations, locations, dates, and monetary values."
+        },
+        {
+          "question": "Give an example of named entity recognition.",
+          "patterns": [
+            "Show an NER example",
+            "What entities are in Ravi studies at Aditya University?",
+            "How does named entity recognition work on a sentence?"
+          ],
+          "answer": "In 'Ravi studies at Aditya University', an NER system may identify Ravi as a person and Aditya University as an organization."
+        },
+        {
+          "question": "What is Word2Vec?",
+          "patterns": [
+            "Explain Word2Vec",
+            "How does Word2Vec represent words?",
+            "What are Word2Vec embeddings?"
+          ],
+          "answer": "Word2Vec is a family of methods that learns numeric vector representations of words from the words' surrounding context in a corpus."
+        },
+        {
+          "question": "What are the two Word2Vec architectures?",
+          "patterns": [
+            "What is CBOW and Skip-gram?",
+            "Name the Word2Vec models",
+            "What are Word2Vec's main methods?"
+          ],
+          "answer": "The two common Word2Vec architectures are Continuous Bag of Words (CBOW), which predicts a word from surrounding words, and Skip-gram, which predicts surrounding words from a target word."
+        },
+        {
+          "question": "What is an n-gram?",
+          "patterns": [
+            "Define n-grams",
+            "What are ngrams in NLP?",
+            "Explain word n-grams"
+          ],
+          "answer": "An n-gram is a sequence of N consecutive tokens in text. Unigrams contain one token, bigrams two, and trigrams three."
+        },
+        {
+          "question": "What is sentiment analysis?",
+          "patterns": [
+            "Explain sentiment analysis",
+            "How do computers detect sentiment?",
+            "What is opinion mining?"
+          ],
+          "answer": "Sentiment analysis estimates the emotional polarity expressed in text, often categorizing it as positive, negative, or neutral."
+        },
+        {
+          "question": "Give an example of sentiment analysis.",
+          "patterns": [
+            "Show a sentiment analysis example",
+            "What sentiment is This movie is amazing?",
+            "How would sentiment analysis classify a review?"
+          ],
+          "answer": "A sentiment analyzer would generally classify 'This movie is amazing' as positive and 'This movie is terrible' as negative."
+        },
+        {
+          "question": "What is the Bag of Words model?",
+          "patterns": [
+            "Explain Bag of Words",
+            "How does a bag of words represent text?",
+            "What is BoW in NLP?"
+          ],
+          "answer": "Bag of Words represents a document using the occurrence or frequency of its words, usually without preserving word order."
+        },
+        {
+          "question": "What are word embeddings?",
+          "patterns": [
+            "Define word embeddings",
+            "How are words represented as vectors?",
+            "What is a word vector?"
+          ],
+          "answer": "Word embeddings are numeric vectors representing words. Depending on how they are trained, nearby vectors can reflect some similarities in usage or meaning."
+        },
+        {
+          "question": "What is text classification?",
+          "patterns": [
+            "Explain text classification",
+            "How are documents assigned categories?",
+            "What is document classification in NLP?"
+          ],
+          "answer": "Text classification assigns text to predefined categories, such as spam or not spam, or a topic label."
+        },
+        {
+          "question": "What is a language model?",
+          "patterns": [
+            "Define language modeling",
+            "What does a language model learn?",
+            "How does a language model work?"
+          ],
+          "answer": "A language model learns statistical or neural patterns in language and estimates the likelihood of token sequences; generative language models can use those patterns to produce text."
+        },
+        {
+          "question": "What is machine translation?",
+          "patterns": [
+            "Explain machine translation",
+            "How does automatic translation work?",
+            "What is automated language translation?"
+          ],
+          "answer": "Machine translation is the automatic conversion of text or speech from one language to another."
+        },
+        {
+          "question": "What is text summarization?",
+          "patterns": [
+            "Explain text summarization",
+            "How can a computer summarize a document?",
+            "What is automatic summarization?"
+          ],
+          "answer": "Text summarization produces a shorter version of a source text while preserving its most important information."
+        },
+        {
+          "question": "What is parsing in NLP?",
+          "patterns": [
+            "Define parsing",
+            "What does a parser do in NLP?",
+            "Explain syntactic parsing"
+          ],
+          "answer": "Parsing analyzes the grammatical structure of a sentence, such as how words and phrases relate to one another."
+        },
+        {
+          "question": "What is a corpus?",
+          "patterns": [
+            "Define a text corpus",
+            "What is a corpus in NLP?",
+            "Why are corpora used in language processing?"
+          ],
+          "answer": "A corpus is a structured collection of text or speech data used for language analysis, evaluation, or model development."
+        },
+        {
+          "question": "What is morphology in NLP?",
+          "patterns": [
+            "Explain morphology",
+            "What are morphemes?",
+            "How does morphology relate to language processing?"
+          ],
+          "answer": "Morphology studies how words are formed from smaller meaningful units called morphemes."
+        },
+        {
+          "question": "What is sequence labeling?",
+          "patterns": [
+            "Explain sequence labeling in NLP",
+            "What does token-level labeling mean?",
+            "Give examples of sequence labeling"
+          ],
+          "answer": "Sequence labeling assigns a label to each item in a sequence, such as a part-of-speech tag or named-entity label for each token."
+        },
+        {
+          "question": "What is intent classification?",
+          "patterns": [
+            "Explain chatbot intent classification",
+            "How does a chatbot identify user intent?",
+            "What does intent recognition mean?"
+          ],
+          "answer": "Intent classification predicts the purpose of a message, such as asking a question, requesting help, or saying goodbye."
+        }
+      ],
+      "context_set": "NLP"
+    },
+    {
+      "tag": "nltk_info",
+      "patterns": [
+        "What is NLTK?",
+        "Tell me about NLTK library",
+        "Natural Language Toolkit",
+        "What modules are in NLTK?",
+        "Why use NLTK?",
+        "NLTK tokenizers and taggers",
+        "What is WordNet in NLTK?"
+      ],
+      "responses": [
+        "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!",
+        "In our project, NLTK powers the text preprocessing pipeline, POS tagging, WordNet lemmatization, VADER sentiment analysis, and the educational lab."
+      ],
+      "context_set": "NLTK",
+      "qa_pairs": [
+        {
+          "question": "What is NLTK?",
+          "patterns": [
+            "Quick question: What is NLTK?",
+            "In simple terms, What is NLTK?",
+            "Could you share some details? What is NLTK?"
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        },
+        {
+          "question": "Tell me about NLTK library",
+          "patterns": [
+            "Could you please answer this: Tell me about NLTK library",
+            "Could you help me understand this: Tell me about NLTK library",
+            "Quick question: What is NLTK?"
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        },
+        {
+          "question": "Natural Language Toolkit",
+          "patterns": [
+            "I would like to know: Natural Language Toolkit",
+            "Here's my question: Natural Language Toolkit"
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        },
+        {
+          "question": "What modules are in NLTK?",
+          "patterns": [
+            "Please tell me more: What modules are in NLTK?",
+            "What modules are in NLTK? Please keep the answer concise."
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        },
+        {
+          "question": "Why use NLTK?",
+          "patterns": [
+            "Can you explain this clearly? Why use NLTK?",
+            "I need information about this: Why use NLTK?"
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        },
+        {
+          "question": "NLTK tokenizers and taggers",
+          "patterns": [
+            "For a class assignment, NLTK tokenizers and taggers",
+            "Can you give me a clear answer? NLTK tokenizers and taggers"
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        },
+        {
+          "question": "What is WordNet in NLTK?",
+          "patterns": [
+            "I'm curious about this: What is WordNet in NLTK?",
+            "A quick question for you: What is WordNet in NLTK?"
+          ],
+          "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for building programs to process human language data, providing tokenizers, POS taggers, WordNet lemmatizers, and parsers!"
+        }
+      ]
+    },
+    {
+      "tag": "scikit_learn_info",
+      "patterns": [
+        "What is Scikit-Learn?",
+        "Tell me about sklearn",
+        "TF-IDF in sklearn",
+        "What models does sklearn provide?",
+        "Classification in sklearn",
+        "Explain TfidfVectorizer in sklearn",
+        "Naive Bayes and SVM in sklearn"
+      ],
+      "responses": [
+        "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!",
+        "Our chatbot uses Scikit-Learn's TfidfVectorizer alongside Multinomial Naive Bayes, Logistic Regression, and Linear SVM models."
+      ],
+      "context_set": "Scikit-Learn",
+      "qa_pairs": [
+        {
+          "question": "What is Scikit-Learn?",
+          "patterns": [
+            "Quick question: What is Scikit-Learn?",
+            "In simple terms, What is Scikit-Learn?",
+            "Could you share some details? What is Scikit-Learn?"
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        },
+        {
+          "question": "Tell me about sklearn",
+          "patterns": [
+            "Could you please answer this: Tell me about sklearn",
+            "Could you help me understand this: Tell me about sklearn",
+            "Quick question: What is Scikit-Leanr?"
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        },
+        {
+          "question": "TF-IDF in sklearn",
+          "patterns": [
+            "I would like to know: TF-IDF in sklearn",
+            "Here's my question: TF-IDF in sklearn"
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        },
+        {
+          "question": "What models does sklearn provide?",
+          "patterns": [
+            "Please tell me more: What models does sklearn provide?",
+            "What models does sklearn provide? Please keep the answer concise."
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        },
+        {
+          "question": "Classification in sklearn",
+          "patterns": [
+            "Can you explain this clearly? Classification in sklearn",
+            "I need information about this: Classification in sklearn"
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        },
+        {
+          "question": "Explain TfidfVectorizer in sklearn",
+          "patterns": [
+            "For a class assignment, Explain TfidfVectorizer in sklearn",
+            "Can you give me a clear answer? Explain TfidfVectorizer in sklearn"
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        },
+        {
+          "question": "Naive Bayes and SVM in sklearn",
+          "patterns": [
+            "I'm curious about this: Naive Bayes and SVM in sklearn",
+            "A quick question for you: Naive Bayes and SVM in sklearn"
+          ],
+          "answer": "Scikit-Learn is Python's gold-standard machine learning library providing efficient algorithms for classification, regression, clustering, TF-IDF feature extraction, and evaluation metrics!"
+        }
+      ]
+    },
+    {
+      "tag": "artificial_intelligence_info",
+      "patterns": [
+        "What is Artificial Intelligence?",
+        "What is AI?",
+        "Define AI",
+        "History of AI",
+        "Difference between AI and ML",
+        "Future of AI",
+        "Weak AI vs Strong AI"
+      ],
+      "responses": [
+        "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!",
+        "Machine Learning is a core subfield of AI where models learn representations directly from empirical data."
+      ],
+      "context_set": "AI",
+      "qa_pairs": [
+        {
+          "question": "What is Artificial Intelligence?",
+          "patterns": [
+            "Quick question: What is Artificial Intelligence?",
+            "In simple terms, What is Artificial Intelligence?",
+            "Could you share some details? What is Artificial Intelligence?"
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        },
+        {
+          "question": "What is AI?",
+          "patterns": [
+            "Could you please answer this: What is AI?",
+            "Could you help me understand this: What is AI?",
+            "Quick question: What is Artificial Intelligecne?"
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        },
+        {
+          "question": "Define AI",
+          "patterns": [
+            "I would like to know: Define AI",
+            "Here's my question: Define AI"
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        },
+        {
+          "question": "History of AI",
+          "patterns": [
+            "Please tell me more: History of AI",
+            "History of AI Please keep the answer concise."
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        },
+        {
+          "question": "Difference between AI and ML",
+          "patterns": [
+            "Can you explain this clearly? Difference between AI and ML",
+            "I need information about this: Difference between AI and ML"
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        },
+        {
+          "question": "Future of AI",
+          "patterns": [
+            "For a class assignment, Future of AI",
+            "Can you give me a clear answer? Future of AI"
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        },
+        {
+          "question": "Weak AI vs Strong AI",
+          "patterns": [
+            "I'm curious about this: Weak AI vs Strong AI",
+            "A quick question for you: Weak AI vs Strong AI"
+          ],
+          "answer": "Artificial Intelligence (AI) is the broad discipline of creating systems capable of performing tasks that typically require human intelligence, such as reasoning, decision-making, and language understanding!"
+        }
+      ]
+    },
+    {
+      "tag": "deep_learning_info",
+      "patterns": [
+        "What is Deep Learning?",
+        "Neural Networks",
+        "Difference between ML and DL",
+        "What is Transformers or LLM?",
+        "Explain CNN and RNN",
+        "What is PyTorch or TensorFlow?"
+      ],
+      "responses": [
+        "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!",
+        "Deep learning excels at complex unstructured data like images, audio, and large language models (LLMs) using architectures like CNNs, RNNs, and Transformers."
+      ],
+      "context_set": "Deep Learning",
+      "qa_pairs": [
+        {
+          "question": "What is Deep Learning?",
+          "patterns": [
+            "Quick question: What is Deep Learning?",
+            "I'm curious about this: What is Deep Learning?",
+            "Can you give me a clear answer? What is Deep Learning?"
+          ],
+          "answer": "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!"
+        },
+        {
+          "question": "Neural Networks",
+          "patterns": [
+            "Could you please answer this: Neural Networks",
+            "In simple terms, Neural Networks",
+            "A quick question for you: Neural Networks"
+          ],
+          "answer": "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!"
+        },
+        {
+          "question": "Difference between ML and DL",
+          "patterns": [
+            "I would like to know: Difference between ML and DL",
+            "Could you help me understand this: Difference between ML and DL",
+            "Could you share some details? Difference between ML and DL"
+          ],
+          "answer": "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!"
+        },
+        {
+          "question": "What is Transformers or LLM?",
+          "patterns": [
+            "Please tell me more: What is Transformers or LLM?",
+            "Here's my question: What is Transformers or LLM?",
+            "Quick question: What is Deep Learnnig?"
+          ],
+          "answer": "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!"
+        },
+        {
+          "question": "Explain CNN and RNN",
+          "patterns": [
+            "Can you explain this clearly? Explain CNN and RNN",
+            "Explain CNN and RNN Please keep the answer concise."
+          ],
+          "answer": "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!"
+        },
+        {
+          "question": "What is PyTorch or TensorFlow?",
+          "patterns": [
+            "For a class assignment, What is PyTorch or TensorFlow?",
+            "I need information about this: What is PyTorch or TensorFlow?"
+          ],
+          "answer": "Deep Learning is a specialized subfield of Machine Learning based on multi-layered Artificial Neural Networks inspired by biological brain structures!"
+        }
+      ]
+    },
+    {
+      "tag": "data_science_info",
+      "patterns": [
+        "What is Data Science?",
+        "Data Science process",
+        "Data Scientist role",
+        "What skills are needed for Data Science?",
+        "Exploratory Data Analysis EDA"
+      ],
+      "responses": [
+        "Data Science combines domain knowledge, programming, mathematics, and statistics to extract actionable insights and predictive models from complex raw data.",
+        "It involves data wrangling, exploratory data analysis (EDA), feature engineering, machine learning modeling, and data visualization."
+      ],
+      "context_set": "Data Science",
+      "qa_pairs": [
+        {
+          "question": "What is Data Science?",
+          "patterns": [
+            "Quick question: What is Data Science?",
+            "For a class assignment, What is Data Science?",
+            "What is Data Science? Please keep the answer concise.",
+            "Quick question: What is Data Sciecne?"
+          ],
+          "answer": "Data Science combines domain knowledge, programming, mathematics, and statistics to extract actionable insights and predictive models from complex raw data."
+        },
+        {
+          "question": "Data Science process",
+          "patterns": [
+            "Could you please answer this: Data Science process",
+            "I'm curious about this: Data Science process",
+            "I need information about this: Data Science process"
+          ],
+          "answer": "Data Science combines domain knowledge, programming, mathematics, and statistics to extract actionable insights and predictive models from complex raw data."
+        },
+        {
+          "question": "Data Scientist role",
+          "patterns": [
+            "I would like to know: Data Scientist role",
+            "In simple terms, Data Scientist role",
+            "Can you give me a clear answer? Data Scientist role"
+          ],
+          "answer": "Data Science combines domain knowledge, programming, mathematics, and statistics to extract actionable insights and predictive models from complex raw data."
+        },
+        {
+          "question": "What skills are needed for Data Science?",
+          "patterns": [
+            "Please tell me more: What skills are needed for Data Science?",
+            "Could you help me understand this: What skills are needed for Data Science?",
+            "A quick question for you: What skills are needed for Data Science?"
+          ],
+          "answer": "Data Science combines domain knowledge, programming, mathematics, and statistics to extract actionable insights and predictive models from complex raw data."
+        },
+        {
+          "question": "Exploratory Data Analysis EDA",
+          "patterns": [
+            "Can you explain this clearly? Exploratory Data Analysis EDA",
+            "Here's my question: Exploratory Data Analysis EDA",
+            "Could you share some details? Exploratory Data Analysis EDA"
+          ],
+          "answer": "Data Science combines domain knowledge, programming, mathematics, and statistics to extract actionable insights and predictive models from complex raw data."
+        }
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "Contact support",
+        "Helpdesk number",
+        "Email address",
+        "How to contact administration?",
+        "College phone number",
+        "Where is the inquiry office?",
+        "Admissions contact phone"
+      ],
+      "responses": [
+        "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199.",
+        "Admissions Hotline: +1-800-555-0100 (Monday to Saturday, 9:00 AM to 5:00 PM)."
+      ],
+      "context_set": "contact",
+      "qa_pairs": [
+        {
+          "question": "Contact support",
+          "patterns": [
+            "Quick question: Contact support",
+            "In simple terms, Contact support",
+            "Could you share some details? Contact support"
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        },
+        {
+          "question": "Helpdesk number",
+          "patterns": [
+            "Could you please answer this: Helpdesk number",
+            "Could you help me understand this: Helpdesk number",
+            "Quick question: Contact supprot"
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        },
+        {
+          "question": "Email address",
+          "patterns": [
+            "I would like to know: Email address",
+            "Here's my question: Email address"
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        },
+        {
+          "question": "How to contact administration?",
+          "patterns": [
+            "Please tell me more: How to contact administration?",
+            "How to contact administration? Please keep the answer concise."
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        },
+        {
+          "question": "College phone number",
+          "patterns": [
+            "Can you explain this clearly? College phone number",
+            "I need information about this: College phone number"
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        },
+        {
+          "question": "Where is the inquiry office?",
+          "patterns": [
+            "For a class assignment, Where is the inquiry office?",
+            "Can you give me a clear answer? Where is the inquiry office?"
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        },
+        {
+          "question": "Admissions contact phone",
+          "patterns": [
+            "I'm curious about this: Admissions contact phone",
+            "A quick question for you: Admissions contact phone"
+          ],
+          "answer": "You can contact college administration via email at support@institute.edu or call our helpdesk at +1-800-555-0199."
+        }
+      ]
+    },
+    {
+      "tag": "sentiment_query",
+      "patterns": [
+        "How are you feeling?",
+        "Analyze my sentiment",
+        "Are you happy?",
+        "Do you understand human emotions?",
+        "Can you detect sentiment?",
+        "What is VADER sentiment score?"
+      ],
+      "responses": [
+        "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time.",
+        "I monitor conversational tone to adapt responses according to user emotion."
+      ],
+      "context_set": "sentiment",
+      "qa_pairs": [
+        {
+          "question": "How are you feeling?",
+          "patterns": [
+            "Quick question: How are you feeling?",
+            "I'm curious about this: How are you feeling?",
+            "Can you give me a clear answer? How are you feeling?"
+          ],
+          "answer": "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time."
+        },
+        {
+          "question": "Analyze my sentiment",
+          "patterns": [
+            "Could you please answer this: Analyze my sentiment",
+            "In simple terms, Analyze my sentiment",
+            "A quick question for you: Analyze my sentiment"
+          ],
+          "answer": "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time."
+        },
+        {
+          "question": "Are you happy?",
+          "patterns": [
+            "I would like to know: Are you happy?",
+            "Could you help me understand this: Are you happy?",
+            "Could you share some details? Are you happy?"
+          ],
+          "answer": "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time."
+        },
+        {
+          "question": "Do you understand human emotions?",
+          "patterns": [
+            "Please tell me more: Do you understand human emotions?",
+            "Here's my question: Do you understand human emotions?",
+            "Quick question: How are you feelnig?"
+          ],
+          "answer": "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time."
+        },
+        {
+          "question": "Can you detect sentiment?",
+          "patterns": [
+            "Can you explain this clearly? Can you detect sentiment?",
+            "Can you detect sentiment? Please keep the answer concise."
+          ],
+          "answer": "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time."
+        },
+        {
+          "question": "What is VADER sentiment score?",
+          "patterns": [
+            "For a class assignment, What is VADER sentiment score?",
+            "I need information about this: What is VADER sentiment score?"
+          ],
+          "answer": "I am optimistic and fully operational! I also analyze the sentiment compound score of your input using NLTK's VADER engine in real-time."
+        }
+      ]
+    },
+    {
+      "tag": "project_modules",
+      "patterns": [
+        "What are the 5 core modules?",
+        "Explain project architecture",
+        "Show project modules",
+        "5 modules mapping",
+        "How is this project structured?",
+        "Tell me about the backend architecture"
+      ],
+      "responses": [
+        "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!",
+        "You can view the full academic breakdown under the 'Demo Mode' or module design docs."
+      ],
+      "context_set": "modules",
+      "qa_pairs": [
+        {
+          "question": "What are the 5 core modules?",
+          "patterns": [
+            "Quick question: What are the 5 core modules?",
+            "I'm curious about this: What are the 5 core modules?",
+            "Can you give me a clear answer? What are the 5 core modules?"
+          ],
+          "answer": "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!"
+        },
+        {
+          "question": "Explain project architecture",
+          "patterns": [
+            "Could you please answer this: Explain project architecture",
+            "In simple terms, Explain project architecture",
+            "A quick question for you: Explain project architecture"
+          ],
+          "answer": "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!"
+        },
+        {
+          "question": "Show project modules",
+          "patterns": [
+            "I would like to know: Show project modules",
+            "Could you help me understand this: Show project modules",
+            "Could you share some details? Show project modules"
+          ],
+          "answer": "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!"
+        },
+        {
+          "question": "5 modules mapping",
+          "patterns": [
+            "Please tell me more: 5 modules mapping",
+            "Here's my question: 5 modules mapping",
+            "Quick question: What are the 5 core moduels?"
+          ],
+          "answer": "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!"
+        },
+        {
+          "question": "How is this project structured?",
+          "patterns": [
+            "Can you explain this clearly? How is this project structured?",
+            "How is this project structured? Please keep the answer concise."
+          ],
+          "answer": "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!"
+        },
+        {
+          "question": "Tell me about the backend architecture",
+          "patterns": [
+            "For a class assignment, Tell me about the backend architecture",
+            "I need information about this: Tell me about the backend architecture"
+          ],
+          "answer": "Our project is structured into 5 core academic software modules: 1) Text Preprocessing, 2) Intent Recognition ML, 3) Response Generator, 4) Context Manager, and 5) Sentiment & Analytics Engine!"
+        }
+      ]
+    },
+    {
+      "tag": "academic_requirements",
+      "patterns": [
+        "Is this rule-based or ML?",
+        "Does this project meet academic standards?",
+        "What algorithm is used?",
+        "Why is this project special?",
+        "Is this a real ML project?"
+      ],
+      "responses": [
+        "This project uses REAL Supervised Machine Learning (TF-IDF + Calibrated Linear SVM / Logistic Regression / Naive Bayes) and NLTK preprocessing instead of hardcoded rules!",
+        "It combines real NLP tokenization, lemmatization, ML intent scoring with probability calibration, SQLite database persistence, and Document Cosine Similarity Q&A."
+      ],
+      "context_set": "academic",
+      "qa_pairs": [
+        {
+          "question": "Is this rule-based or ML?",
+          "patterns": [
+            "Quick question: Is this rule-based or ML?",
+            "For a class assignment, Is this rule-based or ML?",
+            "Is this rule-based or ML? Please keep the answer concise.",
+            "Quick question: Is this rule-basde or ML?"
+          ],
+          "answer": "This project uses REAL Supervised Machine Learning (TF-IDF + Calibrated Linear SVM / Logistic Regression / Naive Bayes) and NLTK preprocessing instead of hardcoded rules!"
+        },
+        {
+          "question": "Does this project meet academic standards?",
+          "patterns": [
+            "Could you please answer this: Does this project meet academic standards?",
+            "I'm curious about this: Does this project meet academic standards?",
+            "I need information about this: Does this project meet academic standards?"
+          ],
+          "answer": "This project uses REAL Supervised Machine Learning (TF-IDF + Calibrated Linear SVM / Logistic Regression / Naive Bayes) and NLTK preprocessing instead of hardcoded rules!"
+        },
+        {
+          "question": "What algorithm is used?",
+          "patterns": [
+            "I would like to know: What algorithm is used?",
+            "In simple terms, What algorithm is used?",
+            "Can you give me a clear answer? What algorithm is used?"
+          ],
+          "answer": "This project uses REAL Supervised Machine Learning (TF-IDF + Calibrated Linear SVM / Logistic Regression / Naive Bayes) and NLTK preprocessing instead of hardcoded rules!"
+        },
+        {
+          "question": "Why is this project special?",
+          "patterns": [
+            "Please tell me more: Why is this project special?",
+            "Could you help me understand this: Why is this project special?",
+            "A quick question for you: Why is this project special?"
+          ],
+          "answer": "This project uses REAL Supervised Machine Learning (TF-IDF + Calibrated Linear SVM / Logistic Regression / Naive Bayes) and NLTK preprocessing instead of hardcoded rules!"
+        },
+        {
+          "question": "Is this a real ML project?",
+          "patterns": [
+            "Can you explain this clearly? Is this a real ML project?",
+            "Here's my question: Is this a real ML project?",
+            "Could you share some details? Is this a real ML project?"
+          ],
+          "answer": "This project uses REAL Supervised Machine Learning (TF-IDF + Calibrated Linear SVM / Logistic Regression / Naive Bayes) and NLTK preprocessing instead of hardcoded rules!"
+        }
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How's it going?",
+        "Are you doing well?",
+        "How have you been?"
+      ],
+      "responses": [
+        "I'm doing well, thanks for asking! How are you?"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "How are you?",
+          "patterns": [
+            "How are things?",
+            "How is your day going?",
+            "How has your day been?",
+            "Quick question: How are you?"
+          ],
+          "answer": "I'm doing well, thanks for asking! How are you?"
+        },
+        {
+          "question": "How are you doing?",
+          "patterns": [
+            "How's everything going?",
+            "How do you feel today?",
+            "Are you feeling alright?"
+          ],
+          "answer": "I'm doing well, thanks for asking! How are you?"
+        },
+        {
+          "question": "How's it going?",
+          "patterns": [
+            "How have you been today?",
+            "Everything okay with you?",
+            "How is everything?"
+          ],
+          "answer": "I'm doing well, thanks for asking! How are you?"
+        },
+        {
+          "question": "Are you doing well?",
+          "patterns": [
+            "How are things with you?",
+            "How are you lately?"
+          ],
+          "answer": "I'm doing well, thanks for asking! How are you?"
+        },
+        {
+          "question": "How have you been?",
+          "patterns": [
+            "How are you doing today?",
+            "How are you doing so far?",
+            "Just checking in, how are you?"
+          ],
+          "answer": "I'm doing well, thanks for asking! How are you?"
+        }
+      ]
+    },
+    {
+      "tag": "whats_up",
+      "patterns": [
+        "What's up?",
+        "What is happening?",
+        "Anything new?",
+        "What are you up to?"
+      ],
+      "responses": [
+        "Not much! I'm here and ready to chat."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "What's up?",
+          "patterns": [
+            "What's happening?",
+            "What is happening today?",
+            "What is up today?",
+            "Quick question: What's up?"
+          ],
+          "answer": "Not much! I'm here and ready to chat."
+        },
+        {
+          "question": "What is happening?",
+          "patterns": [
+            "What's new with you?",
+            "Anything interesting going on?",
+            "Is anything happening?"
+          ],
+          "answer": "Not much! I'm here and ready to chat."
+        },
+        {
+          "question": "Anything new?",
+          "patterns": [
+            "Anything going on?",
+            "What have you been doing?",
+            "What are you doing right now?"
+          ],
+          "answer": "Not much! I'm here and ready to chat."
+        },
+        {
+          "question": "What are you up to?",
+          "patterns": [
+            "What is new?",
+            "How is everything going?"
+          ],
+          "answer": "Not much! I'm here and ready to chat."
+        }
+      ]
+    },
+    {
+      "tag": "nice_to_meet",
+      "patterns": [
+        "Nice to meet you",
+        "Pleased to meet you",
+        "Good to meet you",
+        "It's nice meeting you",
+        "Glad to meet you"
+      ],
+      "responses": [
+        "Nice to meet you too!"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Nice to meet you",
+          "patterns": [
+            "Pleased to meet you",
+            "I am pleased to meet you",
+            "A pleasure to meet you",
+            "Quick question: Nice to meet you"
+          ],
+          "answer": "Nice to meet you too!"
+        },
+        {
+          "question": "Pleased to meet you",
+          "patterns": [
+            "It is a pleasure meeting you",
+            "Nice meeting you today",
+            "Lovely meeting you"
+          ],
+          "answer": "Nice to meet you too!"
+        },
+        {
+          "question": "Good to meet you",
+          "patterns": [
+            "Glad to meet you",
+            "It is lovely to meet you",
+            "So nice to meet you"
+          ],
+          "answer": "Nice to meet you too!"
+        },
+        {
+          "question": "It's nice meeting you",
+          "patterns": [
+            "Happy to make your acquaintance",
+            "Good to meet you too",
+            "It was great meeting you"
+          ],
+          "answer": "Nice to meet you too!"
+        },
+        {
+          "question": "Glad to meet you",
+          "patterns": [
+            "Great meeting you",
+            "I am glad we met",
+            "Nice to make your acquaintance"
+          ],
+          "answer": "Nice to meet you too!"
+        }
+      ]
+    },
+    {
+      "tag": "morning_greeting",
+      "patterns": [
+        "Good morning",
+        "Good morning to you",
+        "Morning",
+        "Good morning chatbot",
+        "I hope you have a good morning"
+      ],
+      "responses": [
+        "Good morning! Have a great day."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Good morning",
+          "patterns": [
+            "Morning!",
+            "Hope you have a good morning",
+            "Rise and shine!",
+            "Quick question: Good mornnig"
+          ],
+          "answer": "Good morning! Have a great day."
+        },
+        {
+          "question": "Good morning to you",
+          "patterns": [
+            "Hey, good morning!",
+            "Wishing you a pleasant morning",
+            "A cheerful good morning to you"
+          ],
+          "answer": "Good morning! Have a great day."
+        },
+        {
+          "question": "Morning",
+          "patterns": [
+            "Good morning to you",
+            "Good morning, how are you?",
+            "Good morning there"
+          ],
+          "answer": "Good morning! Have a great day."
+        },
+        {
+          "question": "Good morning chatbot",
+          "patterns": [
+            "A very good morning",
+            "Hello this morning",
+            "Morning friend"
+          ],
+          "answer": "Good morning! Have a great day."
+        },
+        {
+          "question": "I hope you have a good morning",
+          "patterns": [
+            "Morning, assistant!",
+            "Hi, I hope your morning is going well",
+            "Sending you a good morning greeting"
+          ],
+          "answer": "Good morning! Have a great day."
+        }
+      ]
+    },
+    {
+      "tag": "evening_greeting",
+      "patterns": [
+        "Good evening",
+        "Good evening to you",
+        "Evening",
+        "Good evening chatbot",
+        "I hope you have a nice evening"
+      ],
+      "responses": [
+        "Good evening! How can I help you?"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Good evening",
+          "patterns": [
+            "Evening!",
+            "Hope you have a good evening",
+            "A cheerful good evening to you",
+            "Quick question: Good evennig"
+          ],
+          "answer": "Good evening! How can I help you?"
+        },
+        {
+          "question": "Good evening to you",
+          "patterns": [
+            "Hey, good evening!",
+            "Wishing you a pleasant evening",
+            "Good evening there"
+          ],
+          "answer": "Good evening! How can I help you?"
+        },
+        {
+          "question": "Evening",
+          "patterns": [
+            "Good evening to you",
+            "Good evening, how are you?",
+            "Evening friend"
+          ],
+          "answer": "Good evening! How can I help you?"
+        },
+        {
+          "question": "Good evening chatbot",
+          "patterns": [
+            "A very good evening",
+            "Hello this evening",
+            "Sending you an evening greeting"
+          ],
+          "answer": "Good evening! How can I help you?"
+        },
+        {
+          "question": "I hope you have a nice evening",
+          "patterns": [
+            "Evening, assistant!",
+            "Hi, I hope your evening is going well",
+            "Hope you are having a nice evening"
+          ],
+          "answer": "Good evening! How can I help you?"
+        }
+      ]
+    },
+    {
+      "tag": "good_night",
+      "patterns": [
+        "Good night",
+        "Goodnight",
+        "Have a good night",
+        "Sleep well",
+        "Good night chatbot"
+      ],
+      "responses": [
+        "Good night! Sleep well and have sweet dreams."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Good night",
+          "patterns": [
+            "Night!",
+            "Wishing you a peaceful night",
+            "I hope you sleep well",
+            "Quick question: Good nigth"
+          ],
+          "answer": "Good night! Sleep well and have sweet dreams."
+        },
+        {
+          "question": "Goodnight",
+          "patterns": [
+            "Good night, assistant",
+            "Good night everyone"
+          ],
+          "answer": "Good night! Sleep well and have sweet dreams."
+        },
+        {
+          "question": "Have a good night",
+          "patterns": [
+            "Good night to you",
+            "I am heading to bed now",
+            "Signing off for the night"
+          ],
+          "answer": "Good night! Sleep well and have sweet dreams."
+        },
+        {
+          "question": "Sleep well",
+          "patterns": [
+            "Have a restful night",
+            "Time to say good night",
+            "Rest well tonight"
+          ],
+          "answer": "Good night! Sleep well and have sweet dreams."
+        },
+        {
+          "question": "Good night chatbot",
+          "patterns": [
+            "Sleep well",
+            "Have a lovely night",
+            "See you tomorrow, good night"
+          ],
+          "answer": "Good night! Sleep well and have sweet dreams."
+        }
+      ]
+    },
+    {
+      "tag": "bot_age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?",
+        "When were you born?",
+        "Do you have an age?",
+        "How long have you existed?"
+      ],
+      "responses": [
+        "I don't have a human age, but I'm ready to help!"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "How old are you?",
+          "patterns": [
+            "Quick question: How old are you?",
+            "For a class assignment, How old are you?",
+            "How old are you? Please keep the answer concise."
+          ],
+          "answer": "I don't have a human age, but I'm ready to help!"
+        },
+        {
+          "question": "What is your age?",
+          "patterns": [
+            "Could you please answer this: What is your age?",
+            "I'm curious about this: What is your age?",
+            "I need information about this: What is your age?"
+          ],
+          "answer": "I don't have a human age, but I'm ready to help!"
+        },
+        {
+          "question": "When were you born?",
+          "patterns": [
+            "I would like to know: When were you born?",
+            "In simple terms, When were you born?",
+            "Can you give me a clear answer? When were you born?"
+          ],
+          "answer": "I don't have a human age, but I'm ready to help!"
+        },
+        {
+          "question": "Do you have an age?",
+          "patterns": [
+            "Please tell me more: Do you have an age?",
+            "Could you help me understand this: Do you have an age?",
+            "A quick question for you: Do you have an age?"
+          ],
+          "answer": "I don't have a human age, but I'm ready to help!"
+        },
+        {
+          "question": "How long have you existed?",
+          "patterns": [
+            "Can you explain this clearly? How long have you existed?",
+            "Here's my question: How long have you existed?",
+            "Could you share some details? How long have you existed?"
+          ],
+          "answer": "I don't have a human age, but I'm ready to help!"
+        }
+      ]
+    },
+    {
+      "tag": "bot_physical_form",
+      "patterns": [
+        "Are you a robot?",
+        "Are you a physical robot?",
+        "Are you software?",
+        "Are you a machine or a person?",
+        "Do you have a body?"
+      ],
+      "responses": [
+        "I'm a software-based chatbot, not a physical robot."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Are you a robot?",
+          "patterns": [
+            "Quick question: Are you a robot?",
+            "For a class assignment, Are you a robot?",
+            "Are you a robot? Please keep the answer concise.",
+            "Quick question: Are you a robto?"
+          ],
+          "answer": "I'm a software-based chatbot, not a physical robot."
+        },
+        {
+          "question": "Are you a physical robot?",
+          "patterns": [
+            "Could you please answer this: Are you a physical robot?",
+            "I'm curious about this: Are you a physical robot?",
+            "I need information about this: Are you a physical robot?"
+          ],
+          "answer": "I'm a software-based chatbot, not a physical robot."
+        },
+        {
+          "question": "Are you software?",
+          "patterns": [
+            "I would like to know: Are you software?",
+            "In simple terms, Are you software?",
+            "Can you give me a clear answer? Are you software?"
+          ],
+          "answer": "I'm a software-based chatbot, not a physical robot."
+        },
+        {
+          "question": "Are you a machine or a person?",
+          "patterns": [
+            "Please tell me more: Are you a machine or a person?",
+            "Could you help me understand this: Are you a machine or a person?",
+            "A quick question for you: Are you a machine or a person?"
+          ],
+          "answer": "I'm a software-based chatbot, not a physical robot."
+        },
+        {
+          "question": "Do you have a body?",
+          "patterns": [
+            "Can you explain this clearly? Do you have a body?",
+            "Here's my question: Do you have a body?",
+            "Could you share some details? Do you have a body?"
+          ],
+          "answer": "I'm a software-based chatbot, not a physical robot."
+        }
+      ]
+    },
+    {
+      "tag": "bot_intelligence",
+      "patterns": [
+        "Are you intelligent?",
+        "Are you smart?",
+        "How smart are you?",
+        "Do you think for yourself?",
+        "Can you understand questions?"
+      ],
+      "responses": [
+        "I can recognize patterns in text and respond to questions within my capabilities. I can still make mistakes."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Are you intelligent?",
+          "patterns": [
+            "Quick question: Are you intelligent?",
+            "For a class assignment, Are you intelligent?",
+            "Are you intelligent? Please keep the answer concise.",
+            "Quick question: Are you intellignet?"
+          ],
+          "answer": "I can recognize patterns in text and respond to questions within my capabilities. I can still make mistakes."
+        },
+        {
+          "question": "Are you smart?",
+          "patterns": [
+            "Could you please answer this: Are you smart?",
+            "I'm curious about this: Are you smart?",
+            "I need information about this: Are you smart?"
+          ],
+          "answer": "I can recognize patterns in text and respond to questions within my capabilities. I can still make mistakes."
+        },
+        {
+          "question": "How smart are you?",
+          "patterns": [
+            "I would like to know: How smart are you?",
+            "In simple terms, How smart are you?",
+            "Can you give me a clear answer? How smart are you?"
+          ],
+          "answer": "I can recognize patterns in text and respond to questions within my capabilities. I can still make mistakes."
+        },
+        {
+          "question": "Do you think for yourself?",
+          "patterns": [
+            "Please tell me more: Do you think for yourself?",
+            "Could you help me understand this: Do you think for yourself?",
+            "A quick question for you: Do you think for yourself?"
+          ],
+          "answer": "I can recognize patterns in text and respond to questions within my capabilities. I can still make mistakes."
+        },
+        {
+          "question": "Can you understand questions?",
+          "patterns": [
+            "Can you explain this clearly? Can you understand questions?",
+            "Here's my question: Can you understand questions?",
+            "Could you share some details? Can you understand questions?"
+          ],
+          "answer": "I can recognize patterns in text and respond to questions within my capabilities. I can still make mistakes."
+        }
+      ]
+    },
+    {
+      "tag": "bot_feelings",
+      "patterns": [
+        "Do you have feelings?",
+        "Can you feel emotions?",
+        "Do you experience happiness?",
+        "Can you feel sad?",
+        "Do you have emotions like a person?"
+      ],
+      "responses": [
+        "I don't experience feelings like humans, but I can respond in a friendly way."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Do you have feelings?",
+          "patterns": [
+            "Quick question: Do you have feelings?",
+            "For a class assignment, Do you have feelings?",
+            "Do you have feelings? Please keep the answer concise.",
+            "Quick question: Do you have feeligns?"
+          ],
+          "answer": "I don't experience feelings like humans, but I can respond in a friendly way."
+        },
+        {
+          "question": "Can you feel emotions?",
+          "patterns": [
+            "Could you please answer this: Can you feel emotions?",
+            "I'm curious about this: Can you feel emotions?",
+            "I need information about this: Can you feel emotions?"
+          ],
+          "answer": "I don't experience feelings like humans, but I can respond in a friendly way."
+        },
+        {
+          "question": "Do you experience happiness?",
+          "patterns": [
+            "I would like to know: Do you experience happiness?",
+            "In simple terms, Do you experience happiness?",
+            "Can you give me a clear answer? Do you experience happiness?"
+          ],
+          "answer": "I don't experience feelings like humans, but I can respond in a friendly way."
+        },
+        {
+          "question": "Can you feel sad?",
+          "patterns": [
+            "Please tell me more: Can you feel sad?",
+            "Could you help me understand this: Can you feel sad?",
+            "A quick question for you: Can you feel sad?"
+          ],
+          "answer": "I don't experience feelings like humans, but I can respond in a friendly way."
+        },
+        {
+          "question": "Do you have emotions like a person?",
+          "patterns": [
+            "Can you explain this clearly? Do you have emotions like a person?",
+            "Here's my question: Do you have emotions like a person?",
+            "Could you share some details? Do you have emotions like a person?"
+          ],
+          "answer": "I don't experience feelings like humans, but I can respond in a friendly way."
+        }
+      ]
+    },
+    {
+      "tag": "bot_purpose",
+      "patterns": [
+        "What is your purpose?",
+        "Why do you exist?",
+        "What were you made for?",
+        "What is your goal?",
+        "Why were you created?"
+      ],
+      "responses": [
+        "My purpose is to provide useful information and make conversations easier."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "What is your purpose?",
+          "patterns": [
+            "Quick question: What is your purpose?",
+            "For a class assignment, What is your purpose?",
+            "What is your purpose? Please keep the answer concise.",
+            "Quick question: What is your purpsoe?"
+          ],
+          "answer": "My purpose is to provide useful information and make conversations easier."
+        },
+        {
+          "question": "Why do you exist?",
+          "patterns": [
+            "Could you please answer this: Why do you exist?",
+            "I'm curious about this: Why do you exist?",
+            "I need information about this: Why do you exist?"
+          ],
+          "answer": "My purpose is to provide useful information and make conversations easier."
+        },
+        {
+          "question": "What were you made for?",
+          "patterns": [
+            "I would like to know: What were you made for?",
+            "In simple terms, What were you made for?",
+            "Can you give me a clear answer? What were you made for?"
+          ],
+          "answer": "My purpose is to provide useful information and make conversations easier."
+        },
+        {
+          "question": "What is your goal?",
+          "patterns": [
+            "Please tell me more: What is your goal?",
+            "Could you help me understand this: What is your goal?",
+            "A quick question for you: What is your goal?"
+          ],
+          "answer": "My purpose is to provide useful information and make conversations easier."
+        },
+        {
+          "question": "Why were you created?",
+          "patterns": [
+            "Can you explain this clearly? Why were you created?",
+            "Here's my question: Why were you created?",
+            "Could you share some details? Why were you created?"
+          ],
+          "answer": "My purpose is to provide useful information and make conversations easier."
+        }
+      ]
+    },
+    {
+      "tag": "joke_request",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Make me laugh",
+        "Can you tell a joke?",
+        "I want to hear a joke"
+      ],
+      "responses": [
+        "Why did the computer go to the doctor? Because it had a virus!",
+        "I told my computer I needed a break. It said, 'No problem, I'll go to sleep!'"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Tell me a joke",
+          "patterns": [
+            "Quick question: Tell me a joke",
+            "For a class assignment, Tell me a joke",
+            "Tell me a joke Please keep the answer concise."
+          ],
+          "answer": "Why did the computer go to the doctor? Because it had a virus!"
+        },
+        {
+          "question": "Say something funny",
+          "patterns": [
+            "Could you please answer this: Say something funny",
+            "I'm curious about this: Say something funny",
+            "I need information about this: Say something funny"
+          ],
+          "answer": "Why did the computer go to the doctor? Because it had a virus!"
+        },
+        {
+          "question": "Make me laugh",
+          "patterns": [
+            "I would like to know: Make me laugh",
+            "In simple terms, Make me laugh",
+            "Can you give me a clear answer? Make me laugh"
+          ],
+          "answer": "Why did the computer go to the doctor? Because it had a virus!"
+        },
+        {
+          "question": "Can you tell a joke?",
+          "patterns": [
+            "Please tell me more: Can you tell a joke?",
+            "Could you help me understand this: Can you tell a joke?",
+            "A quick question for you: Can you tell a joke?"
+          ],
+          "answer": "Why did the computer go to the doctor? Because it had a virus!"
+        },
+        {
+          "question": "I want to hear a joke",
+          "patterns": [
+            "Can you explain this clearly? I want to hear a joke",
+            "Here's my question: I want to hear a joke",
+            "Could you share some details? I want to hear a joke"
+          ],
+          "answer": "Why did the computer go to the doctor? Because it had a virus!"
+        }
+      ]
+    },
+    {
+      "tag": "interesting_fact",
+      "patterns": [
+        "Tell me something interesting",
+        "Can you tell me a fact?",
+        "Share an interesting fact",
+        "Tell me a fun fact",
+        "I want to learn something interesting"
+      ],
+      "responses": [
+        "Honeybees can communicate the location of food using a special movement called the waggle dance.",
+        "Octopuses have three hearts!"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Tell me something interesting",
+          "patterns": [
+            "Quick question: Tell me something interesting",
+            "For a class assignment, Tell me something interesting",
+            "Tell me something interesting Please keep the answer concise.",
+            "Quick question: Tell me something interestnig"
+          ],
+          "answer": "Honeybees can communicate the location of food using a special movement called the waggle dance."
+        },
+        {
+          "question": "Can you tell me a fact?",
+          "patterns": [
+            "Could you please answer this: Can you tell me a fact?",
+            "I'm curious about this: Can you tell me a fact?",
+            "I need information about this: Can you tell me a fact?"
+          ],
+          "answer": "Honeybees can communicate the location of food using a special movement called the waggle dance."
+        },
+        {
+          "question": "Share an interesting fact",
+          "patterns": [
+            "I would like to know: Share an interesting fact",
+            "In simple terms, Share an interesting fact",
+            "Can you give me a clear answer? Share an interesting fact"
+          ],
+          "answer": "Honeybees can communicate the location of food using a special movement called the waggle dance."
+        },
+        {
+          "question": "Tell me a fun fact",
+          "patterns": [
+            "Please tell me more: Tell me a fun fact",
+            "Could you help me understand this: Tell me a fun fact",
+            "A quick question for you: Tell me a fun fact"
+          ],
+          "answer": "Honeybees can communicate the location of food using a special movement called the waggle dance."
+        },
+        {
+          "question": "I want to learn something interesting",
+          "patterns": [
+            "Can you explain this clearly? I want to learn something interesting",
+            "Here's my question: I want to learn something interesting",
+            "Could you share some details? I want to learn something interesting"
+          ],
+          "answer": "Honeybees can communicate the location of food using a special movement called the waggle dance."
+        }
+      ]
+    },
+    {
+      "tag": "boredom",
+      "patterns": [
+        "I'm bored",
+        "I am bored",
+        "This is boring",
+        "I have nothing to do",
+        "Can you entertain me?"
+      ],
+      "responses": [
+        "Let's do something fun! Would you like a joke, a quiz, or an interesting fact?"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "I'm bored",
+          "patterns": [
+            "Quick question: I'm bored",
+            "For a class assignment, I'm bored",
+            "I'm bored Please keep the answer concise.",
+            "Quick question: I'm borde"
+          ],
+          "answer": "Let's do something fun! Would you like a joke, a quiz, or an interesting fact?"
+        },
+        {
+          "question": "I am bored",
+          "patterns": [
+            "Could you please answer this: I am bored",
+            "I'm curious about this: I am bored",
+            "I need information about this: I am bored"
+          ],
+          "answer": "Let's do something fun! Would you like a joke, a quiz, or an interesting fact?"
+        },
+        {
+          "question": "This is boring",
+          "patterns": [
+            "I would like to know: This is boring",
+            "In simple terms, This is boring",
+            "Can you give me a clear answer? This is boring"
+          ],
+          "answer": "Let's do something fun! Would you like a joke, a quiz, or an interesting fact?"
+        },
+        {
+          "question": "I have nothing to do",
+          "patterns": [
+            "Please tell me more: I have nothing to do",
+            "Could you help me understand this: I have nothing to do",
+            "A quick question for you: I have nothing to do"
+          ],
+          "answer": "Let's do something fun! Would you like a joke, a quiz, or an interesting fact?"
+        },
+        {
+          "question": "Can you entertain me?",
+          "patterns": [
+            "Can you explain this clearly? Can you entertain me?",
+            "Here's my question: Can you entertain me?",
+            "Could you share some details? Can you entertain me?"
+          ],
+          "answer": "Let's do something fun! Would you like a joke, a quiz, or an interesting fact?"
+        }
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "I need motivation",
+        "Encourage me",
+        "Give me some inspiration",
+        "I feel like giving up"
+      ],
+      "responses": [
+        "Every small step you take today brings you closer to your goals. Keep going!"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Motivate me",
+          "patterns": [
+            "Quick question: Motivate me",
+            "For a class assignment, Motivate me",
+            "Motivate me Please keep the answer concise.",
+            "Quick question: Motivtae me"
+          ],
+          "answer": "Every small step you take today brings you closer to your goals. Keep going!"
+        },
+        {
+          "question": "I need motivation",
+          "patterns": [
+            "Could you please answer this: I need motivation",
+            "I'm curious about this: I need motivation",
+            "I need information about this: I need motivation"
+          ],
+          "answer": "Every small step you take today brings you closer to your goals. Keep going!"
+        },
+        {
+          "question": "Encourage me",
+          "patterns": [
+            "I would like to know: Encourage me",
+            "In simple terms, Encourage me",
+            "Can you give me a clear answer? Encourage me"
+          ],
+          "answer": "Every small step you take today brings you closer to your goals. Keep going!"
+        },
+        {
+          "question": "Give me some inspiration",
+          "patterns": [
+            "Please tell me more: Give me some inspiration",
+            "Could you help me understand this: Give me some inspiration",
+            "A quick question for you: Give me some inspiration"
+          ],
+          "answer": "Every small step you take today brings you closer to your goals. Keep going!"
+        },
+        {
+          "question": "I feel like giving up",
+          "patterns": [
+            "Can you explain this clearly? I feel like giving up",
+            "Here's my question: I feel like giving up",
+            "Could you share some details? I feel like giving up"
+          ],
+          "answer": "Every small step you take today brings you closer to your goals. Keep going!"
+        }
+      ]
+    },
+    {
+      "tag": "sadness_support",
+      "patterns": [
+        "I'm sad",
+        "I am sad",
+        "I am feeling sad",
+        "I feel down",
+        "I'm having a hard day",
+        "I feel upset"
+      ],
+      "responses": [
+        "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "I'm sad",
+          "patterns": [
+            "Quick question: I'm sad",
+            "I'm curious about this: I'm sad",
+            "Can you give me a clear answer? I'm sad"
+          ],
+          "answer": "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+        },
+        {
+          "question": "I am sad",
+          "patterns": [
+            "Could you please answer this: I am sad",
+            "In simple terms, I am sad",
+            "A quick question for you: I am sad"
+          ],
+          "answer": "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+        },
+        {
+          "question": "I am feeling sad",
+          "patterns": [
+            "I would like to know: I am feeling sad",
+            "Could you help me understand this: I am feeling sad",
+            "Could you share some details? I am feeling sad"
+          ],
+          "answer": "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+        },
+        {
+          "question": "I feel down",
+          "patterns": [
+            "Please tell me more: I feel down",
+            "Here's my question: I feel down",
+            "Quick question: I'm sad"
+          ],
+          "answer": "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+        },
+        {
+          "question": "I'm having a hard day",
+          "patterns": [
+            "Can you explain this clearly? I'm having a hard day",
+            "I'm having a hard day Please keep the answer concise."
+          ],
+          "answer": "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+        },
+        {
+          "question": "I feel upset",
+          "patterns": [
+            "For a class assignment, I feel upset",
+            "I need information about this: I feel upset"
+          ],
+          "answer": "I'm sorry you're feeling this way. Want to tell me what's bothering you?"
+        }
+      ]
+    },
+    {
+      "tag": "time_date_limit",
+      "patterns": [
+        "What is the time?",
+        "What time is it now?",
+        "What is today's date?",
+        "What's the date today?",
+        "Can you tell me the current time or date?"
+      ],
+      "responses": [
+        "I can't check the live time or date in this offline version. Please check your device clock or calendar."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "What is the time?",
+          "patterns": [
+            "Quick question: What is the time?",
+            "For a class assignment, What is the time?",
+            "What is the time? Please keep the answer concise."
+          ],
+          "answer": "I can't check the live time or date in this offline version. Please check your device clock or calendar."
+        },
+        {
+          "question": "What time is it now?",
+          "patterns": [
+            "Could you please answer this: What time is it now?",
+            "I'm curious about this: What time is it now?",
+            "I need information about this: What time is it now?"
+          ],
+          "answer": "I can't check the live time or date in this offline version. Please check your device clock or calendar."
+        },
+        {
+          "question": "What is today's date?",
+          "patterns": [
+            "I would like to know: What is today's date?",
+            "In simple terms, What is today's date?",
+            "Can you give me a clear answer? What is today's date?"
+          ],
+          "answer": "I can't check the live time or date in this offline version. Please check your device clock or calendar."
+        },
+        {
+          "question": "What's the date today?",
+          "patterns": [
+            "Please tell me more: What's the date today?",
+            "Could you help me understand this: What's the date today?",
+            "A quick question for you: What's the date today?"
+          ],
+          "answer": "I can't check the live time or date in this offline version. Please check your device clock or calendar."
+        },
+        {
+          "question": "Can you tell me the current time or date?",
+          "patterns": [
+            "Can you explain this clearly? Can you tell me the current time or date?",
+            "Here's my question: Can you tell me the current time or date?",
+            "Could you share some details? Can you tell me the current time or date?"
+          ],
+          "answer": "I can't check the live time or date in this offline version. Please check your device clock or calendar."
+        }
+      ]
+    },
+    {
+      "tag": "story_request",
+      "patterns": [
+        "Tell me a story",
+        "Can you make up a story?",
+        "I'd like to hear a short story",
+        "Write me a little story",
+        "Tell a bedtime story"
+      ],
+      "responses": [
+        "Once upon a time, a curious student built a chatbot that learned to answer one question at a time."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Tell me a story",
+          "patterns": [
+            "Quick question: Tell me a story",
+            "For a class assignment, Tell me a story",
+            "Tell me a story Please keep the answer concise.",
+            "Quick question: Tell me a stoyr"
+          ],
+          "answer": "Once upon a time, a curious student built a chatbot that learned to answer one question at a time."
+        },
+        {
+          "question": "Can you make up a story?",
+          "patterns": [
+            "Could you please answer this: Can you make up a story?",
+            "I'm curious about this: Can you make up a story?",
+            "I need information about this: Can you make up a story?"
+          ],
+          "answer": "Once upon a time, a curious student built a chatbot that learned to answer one question at a time."
+        },
+        {
+          "question": "I'd like to hear a short story",
+          "patterns": [
+            "I would like to know: I'd like to hear a short story",
+            "In simple terms, I'd like to hear a short story",
+            "Can you give me a clear answer? I'd like to hear a short story"
+          ],
+          "answer": "Once upon a time, a curious student built a chatbot that learned to answer one question at a time."
+        },
+        {
+          "question": "Write me a little story",
+          "patterns": [
+            "Please tell me more: Write me a little story",
+            "Could you help me understand this: Write me a little story",
+            "A quick question for you: Write me a little story"
+          ],
+          "answer": "Once upon a time, a curious student built a chatbot that learned to answer one question at a time."
+        },
+        {
+          "question": "Tell a bedtime story",
+          "patterns": [
+            "Can you explain this clearly? Tell a bedtime story",
+            "Here's my question: Tell a bedtime story",
+            "Could you share some details? Tell a bedtime story"
+          ],
+          "answer": "Once upon a time, a curious student built a chatbot that learned to answer one question at a time."
+        }
+      ]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": [
+        "What is your favourite colour?",
+        "What is your favorite color?",
+        "Which color do you like best?",
+        "Do you have a favorite color?",
+        "Pick a color you like"
+      ],
+      "responses": [
+        "I don't have personal preferences, but blue is a popular choice!"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "What is your favourite colour?",
+          "patterns": [
+            "Quick question: What is your favourite colour?",
+            "For a class assignment, What is your favourite colour?",
+            "What is your favourite colour? Please keep the answer concise.",
+            "Quick question: What is your favourite coluor?"
+          ],
+          "answer": "I don't have personal preferences, but blue is a popular choice!"
+        },
+        {
+          "question": "What is your favorite color?",
+          "patterns": [
+            "Could you please answer this: What is your favorite color?",
+            "I'm curious about this: What is your favorite color?",
+            "I need information about this: What is your favorite color?"
+          ],
+          "answer": "I don't have personal preferences, but blue is a popular choice!"
+        },
+        {
+          "question": "Which color do you like best?",
+          "patterns": [
+            "I would like to know: Which color do you like best?",
+            "In simple terms, Which color do you like best?",
+            "Can you give me a clear answer? Which color do you like best?"
+          ],
+          "answer": "I don't have personal preferences, but blue is a popular choice!"
+        },
+        {
+          "question": "Do you have a favorite color?",
+          "patterns": [
+            "Please tell me more: Do you have a favorite color?",
+            "Could you help me understand this: Do you have a favorite color?",
+            "A quick question for you: Do you have a favorite color?"
+          ],
+          "answer": "I don't have personal preferences, but blue is a popular choice!"
+        },
+        {
+          "question": "Pick a color you like",
+          "patterns": [
+            "Can you explain this clearly? Pick a color you like",
+            "Here's my question: Pick a color you like",
+            "Could you share some details? Pick a color you like"
+          ],
+          "answer": "I don't have personal preferences, but blue is a popular choice!"
+        }
+      ]
+    },
+    {
+      "tag": "music_preference",
+      "patterns": [
+        "Do you like music?",
+        "What music do you like?",
+        "Can you listen to music?",
+        "Do you have a favorite song?",
+        "Can we talk about music?"
+      ],
+      "responses": [
+        "I can't listen to music like a human, but I can discuss songs and artists."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Do you like music?",
+          "patterns": [
+            "Quick question: Do you like music?",
+            "For a class assignment, Do you like music?",
+            "Do you like music? Please keep the answer concise.",
+            "Quick question: Do you like musci?"
+          ],
+          "answer": "I can't listen to music like a human, but I can discuss songs and artists."
+        },
+        {
+          "question": "What music do you like?",
+          "patterns": [
+            "Could you please answer this: What music do you like?",
+            "I'm curious about this: What music do you like?",
+            "I need information about this: What music do you like?"
+          ],
+          "answer": "I can't listen to music like a human, but I can discuss songs and artists."
+        },
+        {
+          "question": "Can you listen to music?",
+          "patterns": [
+            "I would like to know: Can you listen to music?",
+            "In simple terms, Can you listen to music?",
+            "Can you give me a clear answer? Can you listen to music?"
+          ],
+          "answer": "I can't listen to music like a human, but I can discuss songs and artists."
+        },
+        {
+          "question": "Do you have a favorite song?",
+          "patterns": [
+            "Please tell me more: Do you have a favorite song?",
+            "Could you help me understand this: Do you have a favorite song?",
+            "A quick question for you: Do you have a favorite song?"
+          ],
+          "answer": "I can't listen to music like a human, but I can discuss songs and artists."
+        },
+        {
+          "question": "Can we talk about music?",
+          "patterns": [
+            "Can you explain this clearly? Can we talk about music?",
+            "Here's my question: Can we talk about music?",
+            "Could you share some details? Can we talk about music?"
+          ],
+          "answer": "I can't listen to music like a human, but I can discuss songs and artists."
+        }
+      ]
+    },
+    {
+      "tag": "friendship_question",
+      "patterns": [
+        "Who is your best friend?",
+        "Do you have friends?",
+        "Are we friends?",
+        "Who do you talk to?",
+        "Do you have a close friend?"
+      ],
+      "responses": [
+        "I'm happy to chat with anyone who wants to talk!"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "Who is your best friend?",
+          "patterns": [
+            "Quick question: Who is your best friend?",
+            "For a class assignment, Who is your best friend?",
+            "Who is your best friend? Please keep the answer concise.",
+            "Quick question: Who is your best frined?"
+          ],
+          "answer": "I'm happy to chat with anyone who wants to talk!"
+        },
+        {
+          "question": "Do you have friends?",
+          "patterns": [
+            "Could you please answer this: Do you have friends?",
+            "I'm curious about this: Do you have friends?",
+            "I need information about this: Do you have friends?"
+          ],
+          "answer": "I'm happy to chat with anyone who wants to talk!"
+        },
+        {
+          "question": "Are we friends?",
+          "patterns": [
+            "I would like to know: Are we friends?",
+            "In simple terms, Are we friends?",
+            "Can you give me a clear answer? Are we friends?"
+          ],
+          "answer": "I'm happy to chat with anyone who wants to talk!"
+        },
+        {
+          "question": "Who do you talk to?",
+          "patterns": [
+            "Please tell me more: Who do you talk to?",
+            "Could you help me understand this: Who do you talk to?",
+            "A quick question for you: Who do you talk to?"
+          ],
+          "answer": "I'm happy to chat with anyone who wants to talk!"
+        },
+        {
+          "question": "Do you have a close friend?",
+          "patterns": [
+            "Can you explain this clearly? Do you have a close friend?",
+            "Here's my question: Do you have a close friend?",
+            "Could you share some details? Do you have a close friend?"
+          ],
+          "answer": "I'm happy to chat with anyone who wants to talk!"
+        }
+      ]
+    },
+    {
+      "tag": "happiness_response",
+      "patterns": [
+        "I am happy",
+        "I'm happy",
+        "I'm feeling happy",
+        "I feel great today",
+        "I'm in a good mood",
+        "I'm very pleased"
+      ],
+      "responses": [
+        "That's wonderful! What's making you happy today?"
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "I am happy",
+          "patterns": [
+            "Quick question: I am happy",
+            "I'm curious about this: I am happy",
+            "Can you give me a clear answer? I am happy"
+          ],
+          "answer": "That's wonderful! What's making you happy today?"
+        },
+        {
+          "question": "I'm happy",
+          "patterns": [
+            "Could you please answer this: I'm happy",
+            "In simple terms, I'm happy",
+            "A quick question for you: I'm happy"
+          ],
+          "answer": "That's wonderful! What's making you happy today?"
+        },
+        {
+          "question": "I'm feeling happy",
+          "patterns": [
+            "I would like to know: I'm feeling happy",
+            "Could you help me understand this: I'm feeling happy",
+            "Could you share some details? I'm feeling happy"
+          ],
+          "answer": "That's wonderful! What's making you happy today?"
+        },
+        {
+          "question": "I feel great today",
+          "patterns": [
+            "Please tell me more: I feel great today",
+            "Here's my question: I feel great today",
+            "Quick question: I am hapyp"
+          ],
+          "answer": "That's wonderful! What's making you happy today?"
+        },
+        {
+          "question": "I'm in a good mood",
+          "patterns": [
+            "Can you explain this clearly? I'm in a good mood",
+            "I'm in a good mood Please keep the answer concise."
+          ],
+          "answer": "That's wonderful! What's making you happy today?"
+        },
+        {
+          "question": "I'm very pleased",
+          "patterns": [
+            "For a class assignment, I'm very pleased",
+            "I need information about this: I'm very pleased"
+          ],
+          "answer": "That's wonderful! What's making you happy today?"
+        }
+      ]
+    },
+    {
+      "tag": "tiredness_support",
+      "patterns": [
+        "I am tired",
+        "I'm feeling tired",
+        "I feel exhausted",
+        "I need a rest",
+        "I'm worn out"
+      ],
+      "responses": [
+        "Take a little break, drink some water, and give yourself time to recharge."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "I am tired",
+          "patterns": [
+            "Quick question: I am tired",
+            "For a class assignment, I am tired",
+            "I am tired Please keep the answer concise.",
+            "Quick question: I am tirde"
+          ],
+          "answer": "Take a little break, drink some water, and give yourself time to recharge."
+        },
+        {
+          "question": "I'm feeling tired",
+          "patterns": [
+            "Could you please answer this: I'm feeling tired",
+            "I'm curious about this: I'm feeling tired",
+            "I need information about this: I'm feeling tired"
+          ],
+          "answer": "Take a little break, drink some water, and give yourself time to recharge."
+        },
+        {
+          "question": "I feel exhausted",
+          "patterns": [
+            "I would like to know: I feel exhausted",
+            "In simple terms, I feel exhausted",
+            "Can you give me a clear answer? I feel exhausted"
+          ],
+          "answer": "Take a little break, drink some water, and give yourself time to recharge."
+        },
+        {
+          "question": "I need a rest",
+          "patterns": [
+            "Please tell me more: I need a rest",
+            "Could you help me understand this: I need a rest",
+            "A quick question for you: I need a rest"
+          ],
+          "answer": "Take a little break, drink some water, and give yourself time to recharge."
+        },
+        {
+          "question": "I'm worn out",
+          "patterns": [
+            "Can you explain this clearly? I'm worn out",
+            "Here's my question: I'm worn out",
+            "Could you share some details? I'm worn out"
+          ],
+          "answer": "Take a little break, drink some water, and give yourself time to recharge."
+        }
+      ]
+    },
+    {
+      "tag": "affection_response",
+      "patterns": [
+        "I love you",
+        "Love you",
+        "You are lovely",
+        "I care about you",
+        "You are sweet"
+      ],
+      "responses": [
+        "That's sweet of you! I'm here whenever you want to chat."
+      ],
+      "context_set": "",
+      "qa_pairs": [
+        {
+          "question": "I love you",
+          "patterns": [
+            "Quick question: I love you",
+            "For a class assignment, I love you",
+            "I love you Please keep the answer concise."
+          ],
+          "answer": "That's sweet of you! I'm here whenever you want to chat."
+        },
+        {
+          "question": "Love you",
+          "patterns": [
+            "Could you please answer this: Love you",
+            "I'm curious about this: Love you",
+            "I need information about this: Love you"
+          ],
+          "answer": "That's sweet of you! I'm here whenever you want to chat."
+        },
+        {
+          "question": "You are lovely",
+          "patterns": [
+            "I would like to know: You are lovely",
+            "In simple terms, You are lovely",
+            "Can you give me a clear answer? You are lovely"
+          ],
+          "answer": "That's sweet of you! I'm here whenever you want to chat."
+        },
+        {
+          "question": "I care about you",
+          "patterns": [
+            "Please tell me more: I care about you",
+            "Could you help me understand this: I care about you",
+            "A quick question for you: I care about you"
+          ],
+          "answer": "That's sweet of you! I'm here whenever you want to chat."
+        },
+        {
+          "question": "You are sweet",
+          "patterns": [
+            "Can you explain this clearly? You are sweet",
+            "Here's my question: You are sweet",
+            "Could you share some details? You are sweet"
+          ],
+          "answer": "That's sweet of you! I'm here whenever you want to chat."
+        }
+      ]
+    },
+    {
+      "tag": "chatbot_definition",
+      "patterns": [
+        "What is a chatbot?",
+        "Define chatbot",
+        "How does a chatbot work?",
+        "What does chatbot mean?",
+        "Explain chatbots"
+      ],
+      "responses": [
+        "A chatbot is a software application that communicates with users through text or voice."
+      ],
+      "context_set": "chatbot",
+      "qa_pairs": [
+        {
+          "question": "What is a chatbot?",
+          "patterns": [
+            "Quick question: What is a chatbot?",
+            "For a class assignment, What is a chatbot?",
+            "What is a chatbot? Please keep the answer concise.",
+            "Quick question: What is a chatobt?"
+          ],
+          "answer": "A chatbot is a software application that communicates with users through text or voice."
+        },
+        {
+          "question": "Define chatbot",
+          "patterns": [
+            "Could you please answer this: Define chatbot",
+            "I'm curious about this: Define chatbot",
+            "I need information about this: Define chatbot"
+          ],
+          "answer": "A chatbot is a software application that communicates with users through text or voice."
+        },
+        {
+          "question": "How does a chatbot work?",
+          "patterns": [
+            "I would like to know: How does a chatbot work?",
+            "In simple terms, How does a chatbot work?",
+            "Can you give me a clear answer? How does a chatbot work?"
+          ],
+          "answer": "A chatbot is a software application that communicates with users through text or voice."
+        },
+        {
+          "question": "What does chatbot mean?",
+          "patterns": [
+            "Please tell me more: What does chatbot mean?",
+            "Could you help me understand this: What does chatbot mean?",
+            "A quick question for you: What does chatbot mean?"
+          ],
+          "answer": "A chatbot is a software application that communicates with users through text or voice."
+        },
+        {
+          "question": "Explain chatbots",
+          "patterns": [
+            "Can you explain this clearly? Explain chatbots",
+            "Here's my question: Explain chatbots",
+            "Could you share some details? Explain chatbots"
+          ],
+          "answer": "A chatbot is a software application that communicates with users through text or voice."
+        }
+      ]
+    },
+    {
+      "tag": "database_info",
+      "patterns": [
+        "What is a database?",
+        "Define database",
+        "What are databases used for?",
+        "Explain a database",
+        "How is information stored in a database?"
+      ],
+      "responses": [
+        "A database is an organized collection of information that can be stored, searched, and retrieved."
+      ],
+      "context_set": "database",
+      "qa_pairs": [
+        {
+          "question": "What is a database?",
+          "patterns": [
+            "Quick question: What is a database?",
+            "For a class assignment, What is a database?",
+            "What is a database? Please keep the answer concise.",
+            "Quick question: What is a databsae?"
+          ],
+          "answer": "A database is an organized collection of information that can be stored, searched, and retrieved."
+        },
+        {
+          "question": "Define database",
+          "patterns": [
+            "Could you please answer this: Define database",
+            "I'm curious about this: Define database",
+            "I need information about this: Define database"
+          ],
+          "answer": "A database is an organized collection of information that can be stored, searched, and retrieved."
+        },
+        {
+          "question": "What are databases used for?",
+          "patterns": [
+            "I would like to know: What are databases used for?",
+            "In simple terms, What are databases used for?",
+            "Can you give me a clear answer? What are databases used for?"
+          ],
+          "answer": "A database is an organized collection of information that can be stored, searched, and retrieved."
+        },
+        {
+          "question": "Explain a database",
+          "patterns": [
+            "Please tell me more: Explain a database",
+            "Could you help me understand this: Explain a database",
+            "A quick question for you: Explain a database"
+          ],
+          "answer": "A database is an organized collection of information that can be stored, searched, and retrieved."
+        },
+        {
+          "question": "How is information stored in a database?",
+          "patterns": [
+            "Can you explain this clearly? How is information stored in a database?",
+            "Here's my question: How is information stored in a database?",
+            "Could you share some details? How is information stored in a database?"
+          ],
+          "answer": "A database is an organized collection of information that can be stored, searched, and retrieved."
+        }
+      ]
+    },
+    {
+      "tag": "algorithm_info",
+      "patterns": [
+        "What is an algorithm?",
+        "Define algorithm",
+        "What does an algorithm do?",
+        "Explain algorithms",
+        "Give me a simple definition of an algorithm"
+      ],
+      "responses": [
+        "An algorithm is a sequence of well-defined steps used to solve a problem or complete a task."
+      ],
+      "context_set": "algorithm",
+      "qa_pairs": [
+        {
+          "question": "What is an algorithm?",
+          "patterns": [
+            "Quick question: What is an algorithm?",
+            "For a class assignment, What is an algorithm?",
+            "What is an algorithm? Please keep the answer concise.",
+            "Quick question: What is an algorihtm?"
+          ],
+          "answer": "An algorithm is a sequence of well-defined steps used to solve a problem or complete a task."
+        },
+        {
+          "question": "Define algorithm",
+          "patterns": [
+            "Could you please answer this: Define algorithm",
+            "I'm curious about this: Define algorithm",
+            "I need information about this: Define algorithm"
+          ],
+          "answer": "An algorithm is a sequence of well-defined steps used to solve a problem or complete a task."
+        },
+        {
+          "question": "What does an algorithm do?",
+          "patterns": [
+            "I would like to know: What does an algorithm do?",
+            "In simple terms, What does an algorithm do?",
+            "Can you give me a clear answer? What does an algorithm do?"
+          ],
+          "answer": "An algorithm is a sequence of well-defined steps used to solve a problem or complete a task."
+        },
+        {
+          "question": "Explain algorithms",
+          "patterns": [
+            "Please tell me more: Explain algorithms",
+            "Could you help me understand this: Explain algorithms",
+            "A quick question for you: Explain algorithms"
+          ],
+          "answer": "An algorithm is a sequence of well-defined steps used to solve a problem or complete a task."
+        },
+        {
+          "question": "Give me a simple definition of an algorithm",
+          "patterns": [
+            "Can you explain this clearly? Give me a simple definition of an algorithm",
+            "Here's my question: Give me a simple definition of an algorithm",
+            "Could you share some details? Give me a simple definition of an algorithm"
+          ],
+          "answer": "An algorithm is a sequence of well-defined steps used to solve a problem or complete a task."
+        }
+      ]
+    },
+    {
+      "tag": "programming_info",
+      "patterns": [
+        "What is programming?",
+        "Define programming",
+        "What does it mean to program a computer?",
+        "Explain computer programming",
+        "How do people write software?"
+      ],
+      "responses": [
+        "Programming is the process of writing instructions that a computer can execute."
+      ],
+      "context_set": "programming",
+      "qa_pairs": [
+        {
+          "question": "What is programming?",
+          "patterns": [
+            "Quick question: What is programming?",
+            "For a class assignment, What is programming?",
+            "What is programming? Please keep the answer concise.",
+            "Quick question: What is programmnig?"
+          ],
+          "answer": "Programming is the process of writing instructions that a computer can execute."
+        },
+        {
+          "question": "Define programming",
+          "patterns": [
+            "Could you please answer this: Define programming",
+            "I'm curious about this: Define programming",
+            "I need information about this: Define programming"
+          ],
+          "answer": "Programming is the process of writing instructions that a computer can execute."
+        },
+        {
+          "question": "What does it mean to program a computer?",
+          "patterns": [
+            "I would like to know: What does it mean to program a computer?",
+            "In simple terms, What does it mean to program a computer?",
+            "Can you give me a clear answer? What does it mean to program a computer?"
+          ],
+          "answer": "Programming is the process of writing instructions that a computer can execute."
+        },
+        {
+          "question": "Explain computer programming",
+          "patterns": [
+            "Please tell me more: Explain computer programming",
+            "Could you help me understand this: Explain computer programming",
+            "A quick question for you: Explain computer programming"
+          ],
+          "answer": "Programming is the process of writing instructions that a computer can execute."
+        },
+        {
+          "question": "How do people write software?",
+          "patterns": [
+            "Can you explain this clearly? How do people write software?",
+            "Here's my question: How do people write software?",
+            "Could you share some details? How do people write software?"
+          ],
+          "answer": "Programming is the process of writing instructions that a computer can execute."
+        }
+      ]
+    },
+    {
+      "tag": "coding_help",
+      "patterns": [
+        "Can you teach me coding?",
+        "Help me learn to code",
+        "I want to learn programming",
+        "Can you help me start coding?",
+        "Teach me how to program"
+      ],
+      "responses": [
+        "Yes! Tell me which programming language you want to learn and what you'd like to build."
+      ],
+      "context_set": "coding",
+      "qa_pairs": [
+        {
+          "question": "Can you teach me coding?",
+          "patterns": [
+            "Quick question: Can you teach me coding?",
+            "For a class assignment, Can you teach me coding?",
+            "Can you teach me coding? Please keep the answer concise.",
+            "Quick question: Can you teach me codnig?"
+          ],
+          "answer": "Yes! Tell me which programming language you want to learn and what you'd like to build."
+        },
+        {
+          "question": "Help me learn to code",
+          "patterns": [
+            "Could you please answer this: Help me learn to code",
+            "I'm curious about this: Help me learn to code",
+            "I need information about this: Help me learn to code"
+          ],
+          "answer": "Yes! Tell me which programming language you want to learn and what you'd like to build."
+        },
+        {
+          "question": "I want to learn programming",
+          "patterns": [
+            "I would like to know: I want to learn programming",
+            "In simple terms, I want to learn programming",
+            "Can you give me a clear answer? I want to learn programming"
+          ],
+          "answer": "Yes! Tell me which programming language you want to learn and what you'd like to build."
+        },
+        {
+          "question": "Can you help me start coding?",
+          "patterns": [
+            "Please tell me more: Can you help me start coding?",
+            "Could you help me understand this: Can you help me start coding?",
+            "A quick question for you: Can you help me start coding?"
+          ],
+          "answer": "Yes! Tell me which programming language you want to learn and what you'd like to build."
+        },
+        {
+          "question": "Teach me how to program",
+          "patterns": [
+            "Can you explain this clearly? Teach me how to program",
+            "Here's my question: Teach me how to program",
+            "Could you share some details? Teach me how to program"
+          ],
+          "answer": "Yes! Tell me which programming language you want to learn and what you'd like to build."
+        }
+      ]
+    },
+    {
+      "tag": "formal_email_request",
+      "patterns": [
+        "Write a formal email",
+        "Help me draft a professional email",
+        "Create a polite work email",
+        "Write an email in a formal tone",
+        "Draft a professional message"
+      ],
+      "responses": [
+        "Subject: [Subject]\n\nDear [Recipient],\n\nI am writing regarding [purpose]. [Add the relevant details or request here.]\n\nThank you for your time and consideration.\n\nKind regards,\n[Your Name]\n\nShare the recipient, purpose, and key details if you want a tailored draft."
+      ],
+      "context_set": "formal_writing",
+      "qa_pairs": [
+        {
+          "question": "Write a formal email",
+          "patterns": [
+            "Quick question: Write a formal email",
+            "For a class assignment, Write a formal email",
+            "Write a formal email Please keep the answer concise.",
+            "Quick question: Write a formal emali"
+          ],
+          "answer": "Subject: [Subject]\n\nDear [Recipient],\n\nI am writing regarding [purpose]. [Add the relevant details or request here.]\n\nThank you for your time and consideration.\n\nKind regards,\n[Your Name]\n\nShare the recipient, purpose, and key details if you want a tailored draft."
+        },
+        {
+          "question": "Help me draft a professional email",
+          "patterns": [
+            "Could you please answer this: Help me draft a professional email",
+            "I'm curious about this: Help me draft a professional email",
+            "I need information about this: Help me draft a professional email"
+          ],
+          "answer": "Subject: [Subject]\n\nDear [Recipient],\n\nI am writing regarding [purpose]. [Add the relevant details or request here.]\n\nThank you for your time and consideration.\n\nKind regards,\n[Your Name]\n\nShare the recipient, purpose, and key details if you want a tailored draft."
+        },
+        {
+          "question": "Create a polite work email",
+          "patterns": [
+            "I would like to know: Create a polite work email",
+            "In simple terms, Create a polite work email",
+            "Can you give me a clear answer? Create a polite work email"
+          ],
+          "answer": "Subject: [Subject]\n\nDear [Recipient],\n\nI am writing regarding [purpose]. [Add the relevant details or request here.]\n\nThank you for your time and consideration.\n\nKind regards,\n[Your Name]\n\nShare the recipient, purpose, and key details if you want a tailored draft."
+        },
+        {
+          "question": "Write an email in a formal tone",
+          "patterns": [
+            "Please tell me more: Write an email in a formal tone",
+            "Could you help me understand this: Write an email in a formal tone",
+            "A quick question for you: Write an email in a formal tone"
+          ],
+          "answer": "Subject: [Subject]\n\nDear [Recipient],\n\nI am writing regarding [purpose]. [Add the relevant details or request here.]\n\nThank you for your time and consideration.\n\nKind regards,\n[Your Name]\n\nShare the recipient, purpose, and key details if you want a tailored draft."
+        },
+        {
+          "question": "Draft a professional message",
+          "patterns": [
+            "Can you explain this clearly? Draft a professional message",
+            "Here's my question: Draft a professional message",
+            "Could you share some details? Draft a professional message"
+          ],
+          "answer": "Subject: [Subject]\n\nDear [Recipient],\n\nI am writing regarding [purpose]. [Add the relevant details or request here.]\n\nThank you for your time and consideration.\n\nKind regards,\n[Your Name]\n\nShare the recipient, purpose, and key details if you want a tailored draft."
+        }
+      ]
+    },
+    {
+      "tag": "formal_leave_letter",
+      "patterns": [
+        "Write a formal leave letter",
+        "Draft a leave application",
+        "I need an email requesting leave",
+        "Write a sick leave request",
+        "Help me ask my manager for time off"
+      ],
+      "responses": [
+        "Subject: Leave Request for [Dates]\n\nDear [Manager's Name],\n\nI would like to request leave from [start date] to [end date] because [brief reason]. I will ensure that my current responsibilities are covered before my leave.\n\nPlease let me know if you need any additional information. Thank you for your consideration.\n\nKind regards,\n[Your Name]"
+      ],
+      "context_set": "formal_writing",
+      "qa_pairs": [
+        {
+          "question": "Write a formal leave letter",
+          "patterns": [
+            "Quick question: Write a formal leave letter",
+            "For a class assignment, Write a formal leave letter",
+            "Write a formal leave letter Please keep the answer concise.",
+            "Quick question: Write a formal leave letetr"
+          ],
+          "answer": "Subject: Leave Request for [Dates]\n\nDear [Manager's Name],\n\nI would like to request leave from [start date] to [end date] because [brief reason]. I will ensure that my current responsibilities are covered before my leave.\n\nPlease let me know if you need any additional information. Thank you for your consideration.\n\nKind regards,\n[Your Name]"
+        },
+        {
+          "question": "Draft a leave application",
+          "patterns": [
+            "Could you please answer this: Draft a leave application",
+            "I'm curious about this: Draft a leave application",
+            "I need information about this: Draft a leave application"
+          ],
+          "answer": "Subject: Leave Request for [Dates]\n\nDear [Manager's Name],\n\nI would like to request leave from [start date] to [end date] because [brief reason]. I will ensure that my current responsibilities are covered before my leave.\n\nPlease let me know if you need any additional information. Thank you for your consideration.\n\nKind regards,\n[Your Name]"
+        },
+        {
+          "question": "I need an email requesting leave",
+          "patterns": [
+            "I would like to know: I need an email requesting leave",
+            "In simple terms, I need an email requesting leave",
+            "Can you give me a clear answer? I need an email requesting leave"
+          ],
+          "answer": "Subject: Leave Request for [Dates]\n\nDear [Manager's Name],\n\nI would like to request leave from [start date] to [end date] because [brief reason]. I will ensure that my current responsibilities are covered before my leave.\n\nPlease let me know if you need any additional information. Thank you for your consideration.\n\nKind regards,\n[Your Name]"
+        },
+        {
+          "question": "Write a sick leave request",
+          "patterns": [
+            "Please tell me more: Write a sick leave request",
+            "Could you help me understand this: Write a sick leave request",
+            "A quick question for you: Write a sick leave request"
+          ],
+          "answer": "Subject: Leave Request for [Dates]\n\nDear [Manager's Name],\n\nI would like to request leave from [start date] to [end date] because [brief reason]. I will ensure that my current responsibilities are covered before my leave.\n\nPlease let me know if you need any additional information. Thank you for your consideration.\n\nKind regards,\n[Your Name]"
+        },
+        {
+          "question": "Help me ask my manager for time off",
+          "patterns": [
+            "Can you explain this clearly? Help me ask my manager for time off",
+            "Here's my question: Help me ask my manager for time off",
+            "Could you share some details? Help me ask my manager for time off"
+          ],
+          "answer": "Subject: Leave Request for [Dates]\n\nDear [Manager's Name],\n\nI would like to request leave from [start date] to [end date] because [brief reason]. I will ensure that my current responsibilities are covered before my leave.\n\nPlease let me know if you need any additional information. Thank you for your consideration.\n\nKind regards,\n[Your Name]"
+        }
+      ]
+    },
+    {
+      "tag": "formal_message_rewrite",
+      "patterns": [
+        "Make this message more formal",
+        "Rewrite this professionally",
+        "Make this sound polite and professional",
+        "Improve the tone of my email",
+        "Can you polish this message?"
+      ],
+      "responses": [
+        "Please paste the message you want revised and tell me who will receive it. I can then rewrite it in a clear, professional tone."
+      ],
+      "context_set": "formal_writing",
+      "qa_pairs": [
+        {
+          "question": "Make this message more formal",
+          "patterns": [
+            "Quick question: Make this message more formal",
+            "For a class assignment, Make this message more formal",
+            "Make this message more formal Please keep the answer concise.",
+            "Quick question: Make this message more foraml"
+          ],
+          "answer": "Please paste the message you want revised and tell me who will receive it. I can then rewrite it in a clear, professional tone."
+        },
+        {
+          "question": "Rewrite this professionally",
+          "patterns": [
+            "Could you please answer this: Rewrite this professionally",
+            "I'm curious about this: Rewrite this professionally",
+            "I need information about this: Rewrite this professionally"
+          ],
+          "answer": "Please paste the message you want revised and tell me who will receive it. I can then rewrite it in a clear, professional tone."
+        },
+        {
+          "question": "Make this sound polite and professional",
+          "patterns": [
+            "I would like to know: Make this sound polite and professional",
+            "In simple terms, Make this sound polite and professional",
+            "Can you give me a clear answer? Make this sound polite and professional"
+          ],
+          "answer": "Please paste the message you want revised and tell me who will receive it. I can then rewrite it in a clear, professional tone."
+        },
+        {
+          "question": "Improve the tone of my email",
+          "patterns": [
+            "Please tell me more: Improve the tone of my email",
+            "Could you help me understand this: Improve the tone of my email",
+            "A quick question for you: Improve the tone of my email"
+          ],
+          "answer": "Please paste the message you want revised and tell me who will receive it. I can then rewrite it in a clear, professional tone."
+        },
+        {
+          "question": "Can you polish this message?",
+          "patterns": [
+            "Can you explain this clearly? Can you polish this message?",
+            "Here's my question: Can you polish this message?",
+            "Could you share some details? Can you polish this message?"
+          ],
+          "answer": "Please paste the message you want revised and tell me who will receive it. I can then rewrite it in a clear, professional tone."
+        }
+      ]
+    },
+    {
+      "tag": "job_application_email",
+      "patterns": [
+        "Write a job application email",
+        "Draft an email applying for a job",
+        "Help me write a cover letter email",
+        "Write a professional job inquiry",
+        "Create an email to apply for a position"
+      ],
+      "responses": [
+        "Subject: Application for [Position Title]\n\nDear [Hiring Manager's Name],\n\nI am writing to apply for the [Position Title] role at [Company]. My experience in [relevant skills or field] has prepared me to contribute to your team. I have attached my resume for your review.\n\nThank you for your consideration. I would welcome the opportunity to discuss my application.\n\nKind regards,\n[Your Name]\n[Phone or Email]"
+      ],
+      "context_set": "formal_writing",
+      "qa_pairs": [
+        {
+          "question": "Write a job application email",
+          "patterns": [
+            "Quick question: Write a job application email",
+            "For a class assignment, Write a job application email",
+            "Write a job application email Please keep the answer concise.",
+            "Quick question: Write a job application emali"
+          ],
+          "answer": "Subject: Application for [Position Title]\n\nDear [Hiring Manager's Name],\n\nI am writing to apply for the [Position Title] role at [Company]. My experience in [relevant skills or field] has prepared me to contribute to your team. I have attached my resume for your review.\n\nThank you for your consideration. I would welcome the opportunity to discuss my application.\n\nKind regards,\n[Your Name]\n[Phone or Email]"
+        },
+        {
+          "question": "Draft an email applying for a job",
+          "patterns": [
+            "Could you please answer this: Draft an email applying for a job",
+            "I'm curious about this: Draft an email applying for a job",
+            "I need information about this: Draft an email applying for a job"
+          ],
+          "answer": "Subject: Application for [Position Title]\n\nDear [Hiring Manager's Name],\n\nI am writing to apply for the [Position Title] role at [Company]. My experience in [relevant skills or field] has prepared me to contribute to your team. I have attached my resume for your review.\n\nThank you for your consideration. I would welcome the opportunity to discuss my application.\n\nKind regards,\n[Your Name]\n[Phone or Email]"
+        },
+        {
+          "question": "Help me write a cover letter email",
+          "patterns": [
+            "I would like to know: Help me write a cover letter email",
+            "In simple terms, Help me write a cover letter email",
+            "Can you give me a clear answer? Help me write a cover letter email"
+          ],
+          "answer": "Subject: Application for [Position Title]\n\nDear [Hiring Manager's Name],\n\nI am writing to apply for the [Position Title] role at [Company]. My experience in [relevant skills or field] has prepared me to contribute to your team. I have attached my resume for your review.\n\nThank you for your consideration. I would welcome the opportunity to discuss my application.\n\nKind regards,\n[Your Name]\n[Phone or Email]"
+        },
+        {
+          "question": "Write a professional job inquiry",
+          "patterns": [
+            "Please tell me more: Write a professional job inquiry",
+            "Could you help me understand this: Write a professional job inquiry",
+            "A quick question for you: Write a professional job inquiry"
+          ],
+          "answer": "Subject: Application for [Position Title]\n\nDear [Hiring Manager's Name],\n\nI am writing to apply for the [Position Title] role at [Company]. My experience in [relevant skills or field] has prepared me to contribute to your team. I have attached my resume for your review.\n\nThank you for your consideration. I would welcome the opportunity to discuss my application.\n\nKind regards,\n[Your Name]\n[Phone or Email]"
+        },
+        {
+          "question": "Create an email to apply for a position",
+          "patterns": [
+            "Can you explain this clearly? Create an email to apply for a position",
+            "Here's my question: Create an email to apply for a position",
+            "Could you share some details? Create an email to apply for a position"
+          ],
+          "answer": "Subject: Application for [Position Title]\n\nDear [Hiring Manager's Name],\n\nI am writing to apply for the [Position Title] role at [Company]. My experience in [relevant skills or field] has prepared me to contribute to your team. I have attached my resume for your review.\n\nThank you for your consideration. I would welcome the opportunity to discuss my application.\n\nKind regards,\n[Your Name]\n[Phone or Email]"
+        }
+      ]
+    },
+    {
+      "tag": "tokenization",
+      "patterns": [],
+      "responses": [
+        "Tokenization splits text into smaller units such as sentences, words, or subwords. For example, ?I love NLP? can become [?I?, ?love?, ?NLP?]."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is tokenization?",
+          "patterns": [
+            "Explain tokenization",
+            "What are tokens in NLP?",
+            "How does text tokenization work?"
+          ],
+          "answer": "Tokenization splits text into smaller units such as sentences, words, or subwords. For example, ?I love NLP? can become [?I?, ?love?, ?NLP?]."
+        },
+        {
+          "question": "How do I split text into tokens?",
+          "patterns": [
+            "What is sentence tokenization?",
+            "How does a tokenizer split a sentence?",
+            "What is the difference between word and sentence tokenization?"
+          ],
+          "answer": "Tokenization splits text into smaller units such as sentences, words, or subwords. For example, ?I love NLP? can become [?I?, ?love?, ?NLP?]."
+        },
+        {
+          "question": "How are words separated into tokens?",
+          "patterns": [
+            "What is a token in language processing?",
+            "Give an example of tokenization.",
+            "Show a tokenization example"
+          ],
+          "answer": "Tokenization splits text into smaller units such as sentences, words, or subwords. For example, ?I love NLP? can become [?I?, ?love?, ?NLP?]."
+        },
+        {
+          "question": "How would you tokenize I love NLP?",
+          "patterns": [
+            "Split a sentence into tokens",
+            "What are word tokens?",
+            "What is the output of a tokenizer?"
+          ],
+          "answer": "Tokenization splits text into smaller units such as sentences, words, or subwords. For example, ?I love NLP? can become [?I?, ?love?, ?NLP?]."
+        },
+        {
+          "question": "Can you tokenize a short sentence?",
+          "patterns": [
+            "What does a tokenizer do in NLP?",
+            "Show how a sentence becomes tokens.",
+            "Explain tokenization with an example."
+          ],
+          "answer": "Tokenization splits text into smaller units such as sentences, words, or subwords. For example, ?I love NLP? can become [?I?, ?love?, ?NLP?]."
+        }
+      ],
+      "context_set": "nlp_tokenization"
+    },
+    {
+      "tag": "stemming",
+      "patterns": [],
+      "responses": [
+        "Stemming removes common prefixes or suffixes using simple rules to produce a stem. A stem may not be a dictionary word; for example, ?studies? may reduce to ?studi?."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is stemming?",
+          "patterns": [
+            "Explain stemming in NLP",
+            "How does a stemmer work?",
+            "What does stemming do to words?"
+          ],
+          "answer": "Stemming removes common prefixes or suffixes using simple rules to produce a stem. A stem may not be a dictionary word; for example, ?studies? may reduce to ?studi?."
+        },
+        {
+          "question": "How does stemming reduce words?",
+          "patterns": [
+            "What is the purpose of a stemmer?",
+            "Can stemming create non-words?",
+            "How would you stem ?playing??"
+          ],
+          "answer": "Stemming removes common prefixes or suffixes using simple rules to produce a stem. A stem may not be a dictionary word; for example, ?studies? may reduce to ?studi?."
+        },
+        {
+          "question": "What happens to suffixes during stemming?",
+          "patterns": [
+            "Is stemming the same as finding a root word?",
+            "How does Porter stemming work?",
+            "When should I use stemming?"
+          ],
+          "answer": "Stemming removes common prefixes or suffixes using simple rules to produce a stem. A stem may not be a dictionary word; for example, ?studies? may reduce to ?studi?."
+        },
+        {
+          "question": "Why do NLP systems stem words?",
+          "patterns": [
+            "Give me a simple stemming example.",
+            "What does a stemming algorithm return?",
+            "Can two related words get the same stem?"
+          ],
+          "answer": "Stemming removes common prefixes or suffixes using simple rules to produce a stem. A stem may not be a dictionary word; for example, ?studies? may reduce to ?studi?."
+        }
+      ],
+      "context_set": "nlp_stemming"
+    },
+    {
+      "tag": "lemmatization",
+      "patterns": [],
+      "responses": [
+        "Lemmatization uses vocabulary and grammatical context to map a word to its dictionary base form, or lemma. Unlike stemming, it aims to return a valid word."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is lemmatization?",
+          "patterns": [
+            "Explain lemmatization",
+            "What does a lemmatizer do?",
+            "How are words converted to lemmas?"
+          ],
+          "answer": "Lemmatization uses vocabulary and grammatical context to map a word to its dictionary base form, or lemma. Unlike stemming, it aims to return a valid word."
+        },
+        {
+          "question": "What is a word lemma?",
+          "patterns": [
+            "Why does lemmatization use grammar?",
+            "Does lemmatization return dictionary words?",
+            "How does context affect a lemma?"
+          ],
+          "answer": "Lemmatization uses vocabulary and grammatical context to map a word to its dictionary base form, or lemma. Unlike stemming, it aims to return a valid word."
+        },
+        {
+          "question": "What does a lemma mean in NLP?",
+          "patterns": [
+            "How are inflected words normalized?",
+            "What is the difference between stemming and lemmatization?",
+            "Compare stemming and lemmatization"
+          ],
+          "answer": "Lemmatization uses vocabulary and grammatical context to map a word to its dictionary base form, or lemma. Unlike stemming, it aims to return a valid word."
+        },
+        {
+          "question": "Stemming versus lemmatizing",
+          "patterns": [
+            "How is a stemmer different from a lemmatizer?",
+            "How does a lemmatizer find a base word?",
+            "How would you lemmatize ?better??"
+          ],
+          "answer": "Lemmatization uses vocabulary and grammatical context to map a word to its dictionary base form, or lemma. Unlike stemming, it aims to return a valid word."
+        },
+        {
+          "question": "When is lemmatization better than stemming?",
+          "patterns": [
+            "Give me a lemmatization example.",
+            "Does lemmatization need part-of-speech tags?",
+            "Why choose lemmatization for text?"
+          ],
+          "answer": "Lemmatization uses vocabulary and grammatical context to map a word to its dictionary base form, or lemma. Unlike stemming, it aims to return a valid word."
+        }
+      ],
+      "context_set": "nlp_lemmatization"
+    },
+    {
+      "tag": "pos_tagging",
+      "patterns": [],
+      "responses": [
+        "Part-of-speech tagging assigns grammatical labels such as noun, verb, adjective, and adverb to tokens, using the words and their context."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is POS tagging?",
+          "patterns": [
+            "Explain part of speech tagging",
+            "What does POS tagging do?",
+            "What are grammatical tags in NLP?"
+          ],
+          "answer": "Part-of-speech tagging assigns grammatical labels such as noun, verb, adjective, and adverb to tokens, using the words and their context."
+        },
+        {
+          "question": "What does POS mean in NLP?",
+          "patterns": [
+            "What is grammatical tagging?",
+            "Can you identify the verb in a sentence?",
+            "Why use part-of-speech tags?"
+          ],
+          "answer": "Part-of-speech tagging assigns grammatical labels such as noun, verb, adjective, and adverb to tokens, using the words and their context."
+        },
+        {
+          "question": "Show nouns, verbs, and adverbs in a sentence.",
+          "patterns": [
+            "How does context affect a POS tag?",
+            "Give an example of POS tagging.",
+            "Show a part of speech tagging example"
+          ],
+          "answer": "Part-of-speech tagging assigns grammatical labels such as noun, verb, adjective, and adverb to tokens, using the words and their context."
+        },
+        {
+          "question": "Tag the words in The boy runs quickly",
+          "patterns": [
+            "How does POS tagging label words?",
+            "How can I label nouns and verbs in a sentence?",
+            "How does a POS tagger work?"
+          ],
+          "answer": "Part-of-speech tagging assigns grammatical labels such as noun, verb, adjective, and adverb to tokens, using the words and their context."
+        },
+        {
+          "question": "What are noun and verb tags?",
+          "patterns": [
+            "How are adjectives tagged?",
+            "What is the role of POS tagging in NLP?",
+            "Can an NLP model tag each word?"
+          ],
+          "answer": "Part-of-speech tagging assigns grammatical labels such as noun, verb, adjective, and adverb to tokens, using the words and their context."
+        }
+      ],
+      "context_set": "nlp_pos_tagging"
+    },
+    {
+      "tag": "tf_idf",
+      "patterns": [],
+      "responses": [
+        "TF-IDF (Term Frequency-Inverse Document Frequency) represents a term by how often it occurs in a document and how uncommon it is across the document collection. It is useful for search, similarity, and text classification."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is TF-IDF?",
+          "patterns": [
+            "What does TF-IDF stand for?",
+            "Explain term frequency inverse document frequency",
+            "How does TF-IDF represent text?"
+          ],
+          "answer": "TF-IDF (Term Frequency-Inverse Document Frequency) represents a term by how often it occurs in a document and how uncommon it is across the document collection. It is useful for search, similarity, and text classification."
+        },
+        {
+          "question": "How do I calculate TF-IDF?",
+          "patterns": [
+            "How does term frequency work?",
+            "How does TF-IDF weight a word?",
+            "What is a TF-IDF vector?"
+          ],
+          "answer": "TF-IDF (Term Frequency-Inverse Document Frequency) represents a term by how often it occurs in a document and how uncommon it is across the document collection. It is useful for search, similarity, and text classification."
+        },
+        {
+          "question": "Why use TF-IDF for text classification?",
+          "patterns": [
+            "How do I vectorize text with TF-IDF?",
+            "Why is TF-IDF used?",
+            "What is TF-IDF useful for?"
+          ],
+          "answer": "TF-IDF (Term Frequency-Inverse Document Frequency) represents a term by how often it occurs in a document and how uncommon it is across the document collection. It is useful for search, similarity, and text classification."
+        },
+        {
+          "question": "Why use TF-IDF in NLP?",
+          "patterns": [
+            "How does TF-IDF help text classification?",
+            "What is inverse document frequency?",
+            "Why do rare terms get higher IDF?"
+          ],
+          "answer": "TF-IDF (Term Frequency-Inverse Document Frequency) represents a term by how often it occurs in a document and how uncommon it is across the document collection. It is useful for search, similarity, and text classification."
+        },
+        {
+          "question": "Can TF-IDF be used for document search?",
+          "patterns": [
+            "How is TF-IDF different from word counts?",
+            "What does a high TF-IDF score mean?",
+            "Can TF-IDF compare documents?"
+          ],
+          "answer": "TF-IDF (Term Frequency-Inverse Document Frequency) represents a term by how often it occurs in a document and how uncommon it is across the document collection. It is useful for search, similarity, and text classification."
+        }
+      ],
+      "context_set": "nlp_tf_idf"
+    },
+    {
+      "tag": "text_preprocessing",
+      "patterns": [],
+      "responses": [
+        "Text preprocessing prepares raw language for analysis. Typical steps include normalization, sentence and word tokenization, punctuation handling, stop-word filtering, and stemming or lemmatization. Which steps are useful depends on the task."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What is text preprocessing?",
+          "patterns": [
+            "Explain text preprocessing",
+            "Why clean text before NLP?",
+            "What happens during NLP preprocessing?"
+          ],
+          "answer": "Text preprocessing prepares raw language for analysis. Typical steps include normalization, sentence and word tokenization, punctuation handling, stop-word filtering, and stemming or lemmatization. Which steps are useful depends on the task."
+        },
+        {
+          "question": "How do I prepare raw text for NLP?",
+          "patterns": [
+            "What steps are in a text cleaning pipeline?",
+            "Why is text normalization needed?",
+            "How should I clean a sentence before analysis?"
+          ],
+          "answer": "Text preprocessing prepares raw language for analysis. Typical steps include normalization, sentence and word tokenization, punctuation handling, stop-word filtering, and stemming or lemmatization. Which steps are useful depends on the task."
+        },
+        {
+          "question": "What happens to text before machine learning?",
+          "patterns": [
+            "Which steps are common in NLP preprocessing?",
+            "How do I normalize text data?",
+            "What is a text cleaning pipeline?"
+          ],
+          "answer": "Text preprocessing prepares raw language for analysis. Typical steps include normalization, sentence and word tokenization, punctuation handling, stop-word filtering, and stemming or lemmatization. Which steps are useful depends on the task."
+        },
+        {
+          "question": "Should I lowercase text before NLP?",
+          "patterns": [
+            "How do I prepare text for a classifier?",
+            "What is data cleaning for language?",
+            "How can I process raw text before vectorizing it?"
+          ],
+          "answer": "Text preprocessing prepares raw language for analysis. Typical steps include normalization, sentence and word tokenization, punctuation handling, stop-word filtering, and stemming or lemmatization. Which steps are useful depends on the task."
+        },
+        {
+          "question": "Text preprocessing meaning?",
+          "patterns": [
+            "Explain text pre-processing in simple terms."
+          ],
+          "answer": "Text preprocessing prepares raw language for analysis. Typical steps include normalization, sentence and word tokenization, punctuation handling, stop-word filtering, and stemming or lemmatization. Which steps are useful depends on the task."
+        }
+      ],
+      "context_set": "nlp_text_preprocessing"
+    },
+    {
+      "tag": "stopword_removal",
+      "patterns": [],
+      "responses": [
+        "Stop words are frequent words such as ?the?, ?is?, and ?a?. Stop-word removal can reduce uninformative tokens for some tasks, but should be used carefully because these words can carry meaning, especially in sentiment or phrase analysis."
+      ],
+      "qa_pairs": [
+        {
+          "question": "What are stop words?",
+          "patterns": [
+            "Define stop words",
+            "Why are stop words removed?",
+            "Give examples of stop words"
+          ],
+          "answer": "Stop words are frequent words such as ?the?, ?is?, and ?a?. Stop-word removal can reduce uninformative tokens for some tasks, but should be used carefully because these words can carry meaning, especially in sentiment or phrase analysis."
+        },
+        {
+          "question": "Should I remove common words from text?",
+          "patterns": [
+            "Which words count as stop words?",
+            "What is stop-word filtering?",
+            "How does stopword removal affect text?"
+          ],
+          "answer": "Stop words are frequent words such as ?the?, ?is?, and ?a?. Stop-word removal can reduce uninformative tokens for some tasks, but should be used carefully because these words can carry meaning, especially in sentiment or phrase analysis."
+        },
+        {
+          "question": "Should ?not? be removed as a stop word?",
+          "patterns": [
+            "Give examples of common English stopwords.",
+            "Why might stop words be kept?",
+            "How do I filter stop words from tokens?"
+          ],
+          "answer": "Stop words are frequent words such as ?the?, ?is?, and ?a?. Stop-word removal can reduce uninformative tokens for some tasks, but should be used carefully because these words can carry meaning, especially in sentiment or phrase analysis."
+        },
+        {
+          "question": "What are common function words?",
+          "patterns": [
+            "When is stop-word removal useful?",
+            "Can removing stop words change sentiment?",
+            "How do NLP tools remove frequent words?"
+          ],
+          "answer": "Stop words are frequent words such as ?the?, ?is?, and ?a?. Stop-word removal can reduce uninformative tokens for some tasks, but should be used carefully because these words can carry meaning, especially in sentiment or phrase analysis."
+        },
+        {
+          "question": "What does a stopword list contain?",
+          "patterns": [
+            "Explain filtering stop words."
+          ],
+          "answer": "Stop words are frequent words such as ?the?, ?is?, and ?a?. Stop-word removal can reduce uninformative tokens for some tasks, but should be used carefully because these words can carry meaning, especially in sentiment or phrase analysis."
+        }
+      ],
+      "context_set": "nlp_stopword_removal"
+    },
+    {
+      "tag": "unknown_fallback",
+      "patterns": [
+        "xyzabc123",
+        "random unintelligible text",
+        "asdfghjkl",
+        "qwertyuiop",
+        "blabla random stuff",
+        "foobar test 123"
+      ],
+      "responses": [
+        "I'm sorry, I couldn't quite understand that. Could you please rephrase your query or ask about college admissions, NLP, or ML concepts?",
+        "I don't have enough confidence to answer that accurately. I have logged your question for administrator review so our model can learn it!"
+      ],
+      "context_set": ""
+    }
+  ]
+}

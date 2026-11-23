@@ -1,0 +1,26 @@
+# Institute of Technology & Science - Official Academic Guide 2026
+
+## Overview & Infrastructure
+The Institute of Technology & Science (ITS) is an autonomous institution accredited with NAAC A+ grade. Located in Knowledge City, the 50-acre green campus offers modern academic blocks, advanced research centers, a high-performance computing lab equipped with NVIDIA GPUs, and an extensive central library.
+
+## Academic Programs & Curriculum
+ITS offers four-year Bachelor of Technology (B.Tech) degrees in:
+1. Computer Science & Engineering (CSE)
+2. Artificial Intelligence & Machine Learning (AI & ML)
+3. Data Science (DS)
+4. Electronics & Communication Engineering (ECE)
+
+The curriculum is updated annually in consultation with industry experts from Microsoft, Amazon, and TCS. Students undergo mandatory industry internships during their third year and complete capstone projects in their final year.
+
+## Natural Language Processing & Machine Learning Lab
+The AI/ML Department features a dedicated NLP & Conversational AI Research Lab. Key focus areas include:
+- Text Preprocessing Pipeline: Tokenization, Stopword Filtering, POS Tagging, Lemmatization using WordNet, and Named Entity Recognition.
+- Intent Classification: Using TF-IDF vectorization with Supervised Machine Learning algorithms like Naive Bayes, Logistic Regression, and Support Vector Machines (SVM).
+- Sentiment & Context Management: VADER sentiment analysis combined with conversational context memory tracking for coreference resolution.
+- Document Question Answering: Extracting paragraphs from PDF, DOCX, and TXT files, converting chunks to TF-IDF vectors, and finding exact matches using Cosine Similarity.
+
+## Placement & Career Services
+The Training & Placement Cell (TPC) provides training in data structures, algorithms, system design, and soft skills. In 2025-2026, 92% of students secured campus placement. The highest salary package reached 45 LPA, while the average package stood at 7.5 LPA.
+
+## Hostel & Student Life
+Separate hostels for men and women provide 24/7 security, high-speed Wi-Fi, air-cooled rooms, gym, and nutritious mess meals. Student clubs organize annual tech fests, coding hackathons, and cultural events.
